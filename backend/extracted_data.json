@@ -1,1504 +1,1504 @@
 {
-  "questions": [
-    {
-      "question_number": 1,
-      "subject": "Child Development",
-      "question_text": "The method used to make concept formation :பொதுமைக் கருத்துருவாக்கத்தில் பயன்படுத்தப்படும் முறை :",
-      "option_a": "Deductive methodபகுத்தறி முறை",
-      "option_b": "Inductive methodதொகுத்தறி முறை",
-      "option_c": "Lecture methodவிரிவுரை முறை",
-      "option_d": "Lecture cum Demonstration methodவிரிவுரை மற்றும் செய்து கற்றல் முறை",
-      "correct_option": ""
-    },
-    {
-      "question_number": 2,
-      "subject": "Child Development",
-      "question_text": "The correct statement/statements are :(i) Concept mapping enhance language ability among students(ii) Concept mapping cannot help in note taking(iii) Concept mapping helps teacher to summarize a lesson(iv) Concept mapping helps teacher to chart the academic progress of a learnerசரியான வாக்கியம் / வாக்கியங்களைத் தெரிவு செய்க :(i) பொதுமைக் கருத்து வரைபடம் மாணவர்களிடையே மொழித்திறனை மேம்படுத்துகிறது(ii) பொதுமைக் கருத்து வரைபடம் குறிப்பெடுத்தலுக்கு உதவாது(iii) பொதுமைக் கருத்து வரைபடம் பாடத் தொகுப்பை வழங்க ஆசிரியருக்கு உதவுகிறது(iv) பொதுமைக் கருத்து வரைபடம் கற்பவரின் கற்றல் செயல்பாட்டை அறிய உதவுகிறது",
-      "option_a": "(i) and (iii) only(i) மற்றும் (iii) மட்டும்",
-      "option_b": "(iii) only(iii) மட்டும்",
-      "option_c": "(i), (iii) and (iv) only(i), (iii) மற்றும் (iv) மட்டும்",
-      "option_d": "(iii) and (iv) only(iii) மற்றும் (iv) மட்டும்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 3,
-      "subject": "Child Development",
-      "question_text": "Insightful learning is primarily concerned with the nature of :உட்காட்சி வழிக்கற்றலில் முதன்மையாகக் கருதப்படுவது :",
-      "option_a": "Perceptionகண்ணோட்டம்",
-      "option_b": "Imitationஆயத்தப்படுத்தல்",
-      "option_c": "Intuitionபோலச் செய்தல்",
-      "option_d": "Motivationஉள்ளுணர்வு",
-      "correct_option": ""
-    },
-    {
-      "question_number": 4,
-      "subject": "Child Development",
-      "question_text": "If the child always expects appreciation from their parents, relatives and teachers for all the best performance. What kind of moral development stage does the child show?குழந்தை தான் செய்யும் அனைத்து சிறந்த செயலாக்கத்திற்காக தனது பெற்றோர், உறவினர்கள் மற்றும் ஆசிரியர்களிடமிருந்து எப்போதும் பாராட்டை எதிர்பார்க்கின்றது எனில். இது குழந்தையின் எந்த ஒழுக்க வளர்ச்சி நிலையை காட்டுகிறது?",
-      "option_a": "Pre-conventional stageநடைமுறை வழக்குக்கு முற்பட்ட நிலை",
-      "option_b": "Post-conventional stageநடைமுறை வழக்குக்கு பிந்திய நிலை",
-      "option_c": "Conventional stageநடைமுறை வழக்கு நிலை",
-      "option_d": "High pre - conventional stageஉயர்ந்த நடைமுறை வழக்குக்கு முற்பட்ட நிலை",
-      "correct_option": ""
-    },
-    {
-      "question_number": 5,
-      "subject": "Child Development",
-      "question_text": "In which book Thorndike First presented his Theory ?தார்ண்டைக் தனது கொள்கையை முதன் முதலில் வெளியிட்ட புத்தகத்தின் பெயர் :",
-      "option_a": "Educational PsychologyEducational Psychology",
-      "option_b": "Fundamental learningFundamental learning",
-      "option_c": "The Psychology wants interests and attitudesThe Psychology wants interests and attitudes",
-      "option_d": "Animal learningAnimal learning",
-      "correct_option": ""
-    },
-    {
-      "question_number": 6,
-      "subject": "Child Development",
-      "question_text": "Searching activity between the \"General characteristic of objects\".பொருட்களுக்கிடையே உள்ள \"பொதுவான குணங்களை ஆராய்க\" என்ற செயல் எதைக் குறிக்கும்?",
-      "option_a": "Transformationமாற்றம்",
-      "option_b": "Clarityதெளிவு நிலை",
-      "option_c": "Manipulationகையாளும் திறன்",
-      "option_d": "Readyness for the activityசெயல்முறைக்கான ஆயத்தநிலை",
-      "correct_option": ""
-    },
-    {
-      "question_number": 7,
-      "subject": "Child Development",
-      "question_text": "Which factor is associated with a child who speaks within a year?ஒரு குழந்தை ஓர் ஆண்டிற்குள் பேசுகிறதென்றால் அதற்கு காரணமான காரணி?",
-      "option_a": "Maturationமுதிர்ச்சி",
-      "option_b": "Experienceஅனுபவம்",
-      "option_c": "Exerciseபயிற்சி",
-      "option_d": "Motivationஊக்கம்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 8,
-      "subject": "Child Development",
-      "question_text": "Common factor representing abstract reasoning power that underlies a wide variety of test items represents :பலவிதமான சோதனைப் பொருட்களை பிரதிபலிக்கும் சுருக்க பகுத்தறிவை குறிப்பது :",
-      "option_a": "General factorபொது காரணி",
-      "option_b": "Specific factorகுறிப்பிட்ட காரணி",
-      "option_c": "Hierarchial modelபடிநிலை காரணி",
-      "option_d": "Transformationதன்மை மாற்றம்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 9,
-      "subject": "Child Development",
-      "question_text": "Children's mental representations like familiar large-scale spaces, such as their school or neighbourhood are called :குழந்தைகளின் மன பிரதிநிதித்துவங்களான அவர்களின் பள்ளி அல்லது சுற்றுப்புறம் போன்ற வழக்கமான பெரிய அளவிலான இடங்களை குறிப்பது :",
-      "option_a": "Cognitive mapஅறிவாற்றல் வரைபடம்",
-      "option_b": "Seriationவரிசைப்படுத்துதல்",
-      "option_c": "Transitive inferenceஇடைநிலை அனுமானம்",
-      "option_d": "Conservationபாதுகாத்தல்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 10,
-      "subject": "Child Development",
-      "question_text": "In which memory student learned without understanding the meaning ?எவ்வகை நினைவில் மாணவன் பொருள் புரிந்து கொள்ளாமல் கற்கின்றான்?",
-      "option_a": "Logicalதர்க்கம்",
-      "option_b": "Roteமனனம்",
-      "option_c": "Activeசெயல்",
-      "option_d": "Permanentநிரந்தரம்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 11,
-      "subject": "Child Development",
-      "question_text": "Which one is following include Wechsler intelligence test _______?கீழ்க்கண்டவற்றுள் எவை வெக்ஸ்லரின் நுண்ணறிவு சோதனையில் அடங்கும்?",
-      "option_a": "Non-verbal and performance testசொல்சாரா மற்றும் செயற் சோதனை",
-      "option_b": "Verbal and picture testசொல் சார் மற்றும் படச்சோதனை",
-      "option_c": "Verbal and performance testசொல்சார்ந்த மற்றும் செயற்சோதனை",
-      "option_d": "Performance test and picture testசெயற்சோதனை மற்றும் படச்சோதனை",
-      "correct_option": ""
-    },
-    {
-      "question_number": 12,
-      "subject": "Child Development",
-      "question_text": "Negative influence of a peer group leads to :ஒப்பார் குழுவின் எதிர்மறை தாக்கமானது இதனை நோக்கிச் செல்லும் :",
-      "option_a": "Social developmentசமூக வளர்ச்சி",
-      "option_b": "Anti social behaviourசமூகத்திற்கெதிரான நடத்தை",
-      "option_c": "Social maturityசமூக முதிர்ச்சி",
-      "option_d": "Social welfareசமூக நலன்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 13,
-      "subject": "Child Development",
-      "question_text": "Children get social awareness through :எதன் மூலமாக குழந்தைகள் சமூக விழிப்புணர்வு பெறுகிறார்கள்?",
-      "option_a": "Educational Tourகல்விச் சுற்றுலா",
-      "option_b": "Field Tripகளப் பயணம்",
-      "option_c": "Club Activitiesமன்றச் செயல்பாடுகள்",
-      "option_d": "Individual workதனிச் செயல்பாடு",
-      "correct_option": ""
-    },
-    {
-      "question_number": 14,
-      "subject": "Child Development",
-      "question_text": "Day dreaming becomes more popular as childhood progress, because :குழந்தைப் பருவம் முன்னேறிச் செல்லும் போது பகல் கனவு காண்பது அதிக பிரபலமாகிறது. காரணம் :",
-      "option_a": "day dreaming is difficult and challengingபகல் கனவு காண்பது கடினமானது மற்றும் சவாலானது",
-      "option_b": "they get more information to build their day dreamபகல் கனவை கட்டமைப்பதற்கான நிறைய தகவல்கள் பெறுகிறார்கள்",
-      "option_c": "their low knowledge makes day dreamஅவர்களின் குறைந்த அளவு அறிவு பகல் கனவு காண வைக்கிறது",
-      "option_d": "they wants to share their day dream with othersபகல் கனவை அவர்கள் பிறரோடு பகிர்ந்து கொள்ள விரும்புகிறார்கள்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 15,
-      "subject": "Child Development",
-      "question_text": "Which among the following is an example of autonomy versus shame and doubt stage?கீழ்கண்டவற்றுள் எது தன்னாட்சி Vs வெட்கம் மற்றும் சந்தேகம் நிலைக்கு எடுத்துக் காட்டு :",
-      "option_a": "An elderly person participating in a Marathon raceஒரு முதியவர் நெடுந் தொடர் ஓட்டப் பந்தயத்தில் பங்கேற்றல்",
-      "option_b": "An adolescent trying for a new hair styleஒரு வளரிளம் பருவத்தினன் தனது தலை முடியை புது பாங்கில் வடிவமைத்தல்",
-      "option_c": "A pre-schooler chooses the own dress in a textile shopஒரு பள்ளி முன் பருவ குழந்தை துணிக் கடையில் தனக்கு பிடித்த ஆடையை தெரிவு செய்தல்",
-      "option_d": "A youth opting for his own course of studyஒரு வாலிபன் தனது விருப்பப் பாடத்தை தெரிவு செய்து படித்தல்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 16,
-      "subject": "Child Development",
-      "question_text": "Although separation anxiety increases between 6 and 15 months of age, its occurrence does not depend on the following :6 முதல் 15 மாத குழந்தையின் பிரிவின் பதற்றம் அதிகரித்தாலும், கீழ்கண்டவற்றுள் ஒன்றை சார்ந்து வெளிப்படுவது இல்லை.",
-      "option_a": "Infant temperamentசிசு பருவ மன நிலை",
-      "option_b": "Contextசூழல்",
-      "option_c": "Built-in-signalsஉள்கட்டமைப்பு சமிக்ஞை",
-      "option_d": "Adult behaviourபெரியவர்களின் நடத்தை",
-      "correct_option": ""
-    },
-    {
-      "question_number": 17,
-      "subject": "Child Development",
-      "question_text": "An infant sucks the thumb is associated with which among the substages of Piaget sensory motor stage :குழந்தை விரலை சூப்புதல் பியாஜேயின் புலனியக்க நிலையில் எந்த உட்பிரிவோடு தொடர்புடையது?",
-      "option_a": "Primary circular reactionமுதன்மைச் சுற்று வினை",
-      "option_b": "Secondary circular reactionஇரண்டாம் சுற்று வினை",
-      "option_c": "Tertiary circular reactionமூன்றாம் சுற்று வினை",
-      "option_d": "Reflexesமறிவினைகள்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 18,
-      "subject": "Child Development",
-      "question_text": "Which of the following is the definite morality found in king Harichandra ?கீழ்க்கண்டவற்றுள் இராஜா அரிசந்திரனிடம் காணப்பட்ட உறுதியான அறநெறி பிறழாத தன்மை எது ?",
-      "option_a": "Personal stageதனித் தன்மை நிலை",
-      "option_b": "Social stageசமூக நிலை",
-      "option_c": "Economical stageபொருளாதார நிலை",
-      "option_d": "Religious stageசமயம் சார்ந்த நிலை",
-      "correct_option": ""
-    },
-    {
-      "question_number": 19,
-      "subject": "Child Development",
-      "question_text": "Knowing the intricacies of poultry farming Mani worked hard for the next two years to establish a new poultry farm. What kind of ideal is this?கோழி வளர்ப்பில் உள்ள நுணுக்கங்களை அறிந்துகொண்ட மணி, அடுத்த இரண்டு ஆண்டுகளில் புதிய கோழிப்பண்ணையை நிறுவுவதற்காக கடினமாக உழைத்தார். இது எவ்வகையான லட்சியம்?",
-      "option_a": "Lifetime idealவாழ்வின் லட்சியம்",
-      "option_b": "Short term idealகுறுகிய கால லட்சியம்",
-      "option_c": "Long-term idealநீண்ட கால லட்சியம்",
-      "option_d": "Interim idealஇடைக் கால லட்சியம்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 20,
-      "subject": "Child Development",
-      "question_text": "Child's physical growth is influenced by :குழந்தையின் உடல் வளர்ச்சியில் தாக்கத்தை ஏற்படுத்துபவை:",
-      "option_a": "Environment and Heredityசூழ்நிலை மற்றும் மரபு",
-      "option_b": "Motivation and Environmentஊக்கம் மற்றும் சூழ்நிலை",
-      "option_c": "Motivation and Heredityஊக்கம் மற்றும் மரபு",
-      "option_d": "Motivation and Learningஊக்கம் மற்றும் கற்றல்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 21,
-      "subject": "Child Development",
-      "question_text": "When great teacher inspires students and they accept that teacher as their role model. What type of approach is expressed?சிறந்த ஆசிரியர் மாணவர்களின் அகத்தூண்டலாக செயல்படும்பொழுது அவ்வாசிரியரை தங்களின் முன் மாதிரியாக எடுத்துக் கொள்கின்றனர். இச்செயல் எவ்வகையான அணுகுமுறையினை வெளிப்படுத்துகிறது?",
-      "option_a": "Coerciveகட்டாயப்படுத்துதல்",
-      "option_b": "Persuasiveஇணங்கமாதல்",
-      "option_c": "Emancipationistஅடிமை தன்மையிலிருந்து மீளுதல்",
-      "option_d": "Repressiveஅடக்குமுறை",
-      "correct_option": ""
-    },
-    {
-      "question_number": 22,
-      "subject": "Child Development",
-      "question_text": "Match the following:(a) Competitive games(i) 3-6 years(b) Imaginative games(ii) Till the age of 3(c) Solitary play(iii) After 12 years(d) Team play(iv) 6-12 yearsபொருத்துக:(a) போட்டி வியைாட்டுகள்(i) 3-6 ஆண்டுகள்(b) கற்பனை விளையாட்டுகள்(ii) மூன்று வயது வரையில்(c) தனித்த விளையாட்டுகள்(iii) 12 ஆண்டுக்கு மேல்(d) கூட்டு விளையாட்டுகள்(iv) 6-12 ஆண்டுகள்",
-      "option_a": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
-      "option_b": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
-      "option_c": "(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
-      "option_d": "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
-      "correct_option": ""
-    },
-    {
-      "question_number": 23,
-      "subject": "Child Development",
-      "question_text": "School and communities can jointly foster child's identity development. Supportive experiences include classroom that does not promote _______.பள்ளியும் சமூகமும் இணைந்து ஒரு குழந்தையின் அடையாள வளர்ச்சியை ஊட்டி வளர்க்கிறது. வகுப்பறையை உள்ளடக்கிய ஆதரவான அனுபவங்கள் வளர்க்காதது _______",
-      "option_a": "Continuous and Comprehensive Evaluationதொடர் மற்றும் முழுமையான மதிப்பீடு",
-      "option_b": "High level thinkingஉயர் நிலை சிந்தனை",
-      "option_c": "Extra curricular activities corresponding to its talentsதிறமை சார்ந்த பாடம் சாரா செயல்பாடுகள்",
-      "option_d": "Vocational training that immerses adolescent in the real world of adult workஉண்மையான உலகில் பெரியவர்களின் வேலைத்திறனுக்கேற்ப வளரிளம் பருவத்தினர்க்கு தொழிற்பயிற்சி வழங்குதல்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 24,
-      "subject": "Child Development",
-      "question_text": "What are the roles of the teacher as a motivator ?(i) Encouragement(ii) Awareness(iii) Punishment(iv) Competitionஊக்கப்படுத்துவதில் ஆசிரியரின் பணிகளில் அடங்கியுள்ளவை:(i) உற்சாகப்படுத்துதல்(ii) விழிப்புணர்வு(iii) தண்டனை(iv) போட்டி",
-      "option_a": "(i), (ii), (iii)(i), (ii), (iii)",
-      "option_b": "(i), (ii)(i), (ii)",
-      "option_c": "(ii), (iii)(ii), (iii)",
-      "option_d": "(i), (ii), (iv)(i), (ii), (iv)",
-      "correct_option": ""
-    },
-    {
-      "question_number": 25,
-      "subject": "Child Development",
-      "question_text": "Persons who pay more attention to thought than work :செயலை விட சிந்தனையில் அதிக கவனம் செலுத்துபவர் :",
-      "option_a": "Playersவிளையாட்டு வீரர்",
-      "option_b": "Scientistsவிஞ்ஞானிகள்",
-      "option_c": "Actorsநடிகர்கள்",
-      "option_d": "Political leadersஅரசியல் தலைவர்கள்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 26,
-      "subject": "Child Development",
-      "question_text": "M - learning technology is not delivered through :M - கற்றல் தொழில்நுட்பத்தை பயன்படுத்த இயலாத மின்சாதனம்:",
-      "option_a": "Mobile phonesகைப்பேசி",
-      "option_b": "Televisionதொலைக்காட்சி",
-      "option_c": "Pagersபேஜர் கருவி",
-      "option_d": "MP3 playersMP3 இயக்கி",
-      "correct_option": ""
-    },
-    {
-      "question_number": 27,
-      "subject": "Child Development",
-      "question_text": "Children disturbing their parents by asking more questions is due to :குழந்தைகள் பெரியோர்களை, தொடர்ந்து பல கேள்விகளை கேட்டு நச்சரிப்பது _______",
-      "option_a": "Exited natureஆச்சரிய உணர்வு",
-      "option_b": "Enthusiastic natureஆர்வ மிகுதி",
-      "option_c": "Confused natureகுழப்ப உணர்வு",
-      "option_d": "Disturbing natureதொல்லை செய்யும் உணர்வு",
-      "correct_option": ""
-    },
-    {
-      "question_number": 28,
-      "subject": "Child Development",
-      "question_text": "Kala identifying her father's bike sound easily. This skill comes under which type of learning ?கலா தன்னுடைய தந்தையின் இருசக்கர வாகனத்தை சத்தத்தை வைத்தே எளிமையாக அடையாளம் காணுகிறாள். இந்தத் திறன் கீழ்கண்டவற்றுள் எத்தகைய கற்றலில் அடங்கும்?",
-      "option_a": "Motor learningஇயக்கக் கற்றல்",
-      "option_b": "Verbal learningவாய்மொழிக் கற்றல்",
-      "option_c": "Discrimination learningவேறுபடுத்திக் கற்றல்",
-      "option_d": "Concept learningபொதுமைக் கற்றல்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 29,
-      "subject": "Child Development",
-      "question_text": "Find out the suitable method of using OHP sheets to teach the lesson 'Structure of Cell' :ஒளிபுகும் தாள்களைக் கொண்டு \"செல் அமைப்பு\" எனும் பாடப்பகுதியை கற்பிப்பதற்கு ஏற்ற முறையைக் கண்டறிக:",
-      "option_a": "Revelation methodமறைத்தல் முறை",
-      "option_b": "Silhoutte methodநிழல் முறை",
-      "option_c": "Movement methodஇயக்க முறை",
-      "option_d": "Overlapping methodமேற்பொருத்து முறை",
-      "correct_option": ""
-    },
-    {
-      "question_number": 30,
-      "subject": "Child Development",
-      "question_text": "When a teacher pointing out special demands of a piece of piano with so many strategies in order to make him mastery in playing it. Also she encourage and monitor his progress in a regular basis to achieve the _______ skills.ஒரு ஆசிரியர் மாணவனை பியானோ வாசித்தலில் திறம்பெற பல யுக்திகளையும் நுட்பமான விஷயங்களையும் சுட்டிக்காட்டுவதோடு மட்டுமல்லாமல் அவனைத் தொடர்ந்து கண்காணித்து ஊக்கப்படுத்தி திறனைப் பெறச் செய்வதன் மூலம் அடைவிற்கு வழிவகுக்கிறார்.",
-      "option_a": "Analyticalபகுத்தறியும்",
-      "option_b": "Imaginingகற்பனை",
-      "option_c": "Sensoryபுலன் உணர்வு",
-      "option_d": "Cognitive self - regulatoryஅறிவார்ந்த சுயக் கட்டுப்பாடு",
-      "correct_option": ""
-    },
-    {
-      "question_number": 31,
-      "subject": "Tamil",
-      "question_text": "காமராசருக்கு மணிமண்டபம் அமைக்கப்பட்ட இடம் :",
-      "option_a": "விருதுநகர்",
-      "option_b": "சென்னை",
-      "option_c": "கன்னியாகுமரி",
-      "option_d": "தூத்துக்குடி",
-      "correct_option": ""
-    },
-    {
-      "question_number": 32,
-      "subject": "Tamil",
-      "question_text": "'இகழ்ச்சி\" என்ற சொல் உணர்த்தும் பொருள் :",
-      "option_a": "மகிழ்ச்சி",
-      "option_b": "மதிப்பு",
-      "option_c": "அவமதிப்பு",
-      "option_d": "உயர்வு",
-      "correct_option": ""
-    },
-    {
-      "question_number": 33,
-      "subject": "Tamil",
-      "question_text": "பெருஞ்சித்திரனார் நடத்திய இதழ் :",
-      "option_a": "தேன் சிட்டு",
-      "option_b": "கனிச் சாறு",
-      "option_c": "தென் மொழி",
-      "option_d": "தமிழ் மண்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 34,
-      "subject": "Tamil",
-      "question_text": "திருக்குறள் முதன் முதலில் அச்சிடப்பட்ட ஆண்டு :",
-      "option_a": "1812",
-      "option_b": "1902",
-      "option_c": "1842",
-      "option_d": "1947",
-      "correct_option": ""
-    },
-    {
-      "question_number": 35,
-      "subject": "Tamil",
-      "question_text": "\"முளரி\" என்பது :",
-      "option_a": "மூங்கிலைக் குறிக்கும் வேறு பெயர்",
-      "option_b": "காட்டைக் குறிக்கும் வேறு பெயர்",
-      "option_c": "மேகத்தைக் குறிக்கும் வேறு பெயர்",
-      "option_d": "கப்பலைக் குறிக்கும் வேறு பெயர்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 36,
-      "subject": "Tamil",
-      "question_text": "\"புலி சேர்ந்து போகிய கல்அளை போல்\" இவ்வடியில் \"கல்அளை\" - என்ற சொல்லின் பொருள் :",
-      "option_a": "தாயின் வயிறு",
-      "option_b": "புலி உறங்கும் குகை",
-      "option_c": "கற்குவியல்",
-      "option_d": "போர்க்களம்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 37,
-      "subject": "Tamil",
-      "question_text": "நிறை எனப்படுவது :",
-      "option_a": "மறை பிறர் அறியாமை",
-      "option_b": "தன்கிளை செறாஅமை",
-      "option_c": "புணர்ந்தாரைப் பிரியாமை",
-      "option_d": "கூறியது மறாமை",
-      "correct_option": ""
-    },
-    {
-      "question_number": 38,
-      "subject": "Tamil",
-      "question_text": "'நாமநீர் வேலி உலகிற்கு அவன் அளிபோல்' இவ்வடியில் 'அவன்' என்பது யாரைக் குறிக்கிறது?",
-      "option_a": "பாண்டியன்",
-      "option_b": "சேரன்",
-      "option_c": "சோழன்",
-      "option_d": "கம்பர்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 39,
-      "subject": "Tamil",
-      "question_text": "கடல்ஓடா கால்வெல் நெடுந்தேர் கடல்ஓடும் நாவாயும் ஓடா நிலத்து - இக்குறளில் பயின்று வந்துள்ள அணி",
-      "option_a": "சொல்பின்வரு நிலையணி",
-      "option_b": "உவமை அணி",
-      "option_c": "பிறிது மொழிதல் அணி",
-      "option_d": "இல்பொருள் உவமை அணி",
-      "correct_option": ""
-    },
-    {
-      "question_number": 40,
-      "subject": "Tamil",
-      "question_text": "நிலம், தீ, நீர், வளி, விசும்போடு - ஐந்தும் கலந்த மயக்கம் உலகம் ஆதலின்....... என்ற வரிகள் இடம் பெற்ற நூல் :",
-      "option_a": "திருக்குறள்",
-      "option_b": "சிலப்பதிகாரம்",
-      "option_c": "தொல்காப்பியம்",
-      "option_d": "மணிமேகலை",
-      "correct_option": ""
-    },
-    {
-      "question_number": 41,
-      "subject": "Tamil",
-      "question_text": "வ.உ. சிதம்பரனார் அவர்கள் படித்துப் படித்துத் தொல்லையெல்லாம் மறந்த நூல்:",
-      "option_a": "தொல்காப்பியம்",
-      "option_b": "இன்னிலை",
-      "option_c": "மனம் போல் வாழ்வு",
-      "option_d": "மெய்யறிவு",
-      "correct_option": ""
-    },
-    {
-      "question_number": 42,
-      "subject": "Tamil",
-      "question_text": "'வட்ட நிலா' இலக்கண குறிப்பு தருக :",
-      "option_a": "பண்புத் தொகை",
-      "option_b": "வினைத் தொகை",
-      "option_c": "உரிச்சொல்",
-      "option_d": "இரட்டைக் கிளவி",
-      "correct_option": ""
-    },
-    {
-      "question_number": 43,
-      "subject": "Tamil",
-      "question_text": "'வாடை' எந்த திசையில் இருந்து வீசும் காற்று?",
-      "option_a": "கிழக்கு",
-      "option_b": "மேற்கு",
-      "option_c": "வடக்கு",
-      "option_d": "தெற்கு",
-      "correct_option": ""
-    },
-    {
-      "question_number": 44,
-      "subject": "Tamil",
-      "question_text": "இந்திய நீர்ப்பாசனத்தின் தந்தை :",
-      "option_a": "கரிகாலன்",
-      "option_b": "சோழன்",
-      "option_c": "பாண்டியன்",
-      "option_d": "சர். ஆர்தர் காட்டன்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 45,
-      "subject": "Tamil",
-      "question_text": "'நெடுந்தொகை' என்று அழைக்கப்படும் நூல் எது?",
-      "option_a": "ஐங்குறுநூறு",
-      "option_b": "அகநானூறு",
-      "option_c": "புறநானூறு",
-      "option_d": "கலித்தொகை",
-      "correct_option": ""
-    },
-    {
-      "question_number": 46,
-      "subject": "Tamil",
-      "question_text": "'செயற்படுபொருள் வேற்றுமை' என்று அழைக்கப்படும் வேற்றுமை எது ?",
-      "option_a": "இரண்டாம் வேற்றுமை",
-      "option_b": "மூன்றாம் வேற்றுமை",
-      "option_c": "ஆறாம் வேற்றுமை",
-      "option_d": "ஏழாம் வேற்றுமை",
-      "correct_option": ""
-    },
-    {
-      "question_number": 47,
-      "subject": "Tamil",
-      "question_text": "ஞானம் என்பதன் பொருள் :",
-      "option_a": "தானம்",
-      "option_b": "தெளிவு",
-      "option_c": "அறிவு",
-      "option_d": "சினம்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 48,
-      "subject": "Tamil",
-      "question_text": "கீழ்க்கண்டவற்றுள் 'இணைப்புச் சொற்கள்' அல்லாதது எது ?",
-      "option_a": "அல்லது, ஆனால்",
-      "option_b": "உம், எனில்",
-      "option_c": "ஆதலால், ஆயினும்",
-      "option_d": "என்ற, போன்ற",
-      "correct_option": ""
-    },
-    {
-      "question_number": 49,
-      "subject": "Tamil",
-      "question_text": "'முப்பொருள்' – என்பது :",
-      "option_a": "முதல், இடை, கடை",
-      "option_b": "அறம், பொருள், இன்பம்",
-      "option_c": "தன்மை, முன்னிலை, படர்க்கை",
-      "option_d": "இறப்பு, நிகழ்வு, எதிர்வு",
-      "correct_option": ""
-    },
-    {
-      "question_number": 50,
-      "subject": "Tamil",
-      "question_text": "தொல்காப்பியர் குறிப்பிடும் இலக்கணச் சுவைகள் _______ வகைப்படும்.",
-      "option_a": "5",
-      "option_b": "9",
-      "option_c": "6",
-      "option_d": "7",
-      "correct_option": ""
-    },
-    {
-      "question_number": 51,
-      "subject": "Tamil",
-      "question_text": "'நேர்மை' - என்ற பொருள் தரும் சொல் _______",
-      "option_a": "நயன்",
-      "option_b": "பயன்",
-      "option_c": "நன்றி",
-      "option_d": "பண்பு",
-      "correct_option": ""
-    },
-    {
-      "question_number": 52,
-      "subject": "Tamil",
-      "question_text": "'தமிழ் மூவாயிரம்' நூலின் ஆசிரியர் :",
-      "option_a": "மாணிக்கவாசகர்",
-      "option_b": "திருமூலர்",
-      "option_c": "திருஞானசம்பந்தர்",
-      "option_d": "திருநாவுக்கரசர்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 53,
-      "subject": "Tamil",
-      "question_text": "'தண் பொருநைப் புனல் நாடு' என திருநெல்வேலியின் சிறப்பைப் பாடியவர்:",
-      "option_a": "திருஞானசம்பந்தர்",
-      "option_b": "சேக்கிழார்",
-      "option_c": "சுந்தரர்",
-      "option_d": "சேந்தனார்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 54,
-      "subject": "Tamil",
-      "question_text": "கூற்று 1 : தாமிரபரணி ஆற்றின் மேற்குக் கரையில் திருநெல்வேலி உள்ளது.கூற்று 2: அந்நகரைத் தென்னிந்தியாவின் ஆக்ஸ்போர்டு என்பர்.",
-      "option_a": "கூற்று 1, 2 சரி",
-      "option_b": "கூற்று 1 தவறு, 2 சரி",
-      "option_c": "கூற்று 1 சரி, 2 தவறு",
-      "option_d": "கூற்று 1, 2 தவறு",
-      "correct_option": ""
-    },
-    {
-      "question_number": 55,
-      "subject": "Tamil",
-      "question_text": "\"வாழ்க்கை என்பது நீ சாகும் வரை அல்ல. மற்றவர் மனதில் நீ வாழும் வரை\" என்று கூறியவர் :",
-      "option_a": "கவிமணி",
-      "option_b": "வல்லிக்கண்ணன்",
-      "option_c": "அன்னை தெரேசா",
-      "option_d": "வாணிதாசன்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 56,
-      "subject": "Tamil",
-      "question_text": "பதினெண் கீழ்க்கணக்கு நூல்களுள் ஒன்று :",
-      "option_a": "குறுந்தொகை",
-      "option_b": "பதிற்றுப்பத்து",
-      "option_c": "நற்றிணை",
-      "option_d": "சிறுபஞ்சமூலம்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 57,
-      "subject": "Tamil",
-      "question_text": "ஒருவர் ஒருவரின் ஓட முந்தினர்உடலின் நிழலினை வெரு அஞ்சினர் - யார்?",
-      "option_a": "பாண்டிய வீரர்கள்",
-      "option_b": "சோழ வீரர்கள்",
-      "option_c": "கலிங்க வீரர்கள்",
-      "option_d": "பல்லவ வீரர்கள்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 58,
-      "subject": "Tamil",
-      "question_text": "சில பொருட்களுக்கு காரணம் கருதாமல் பெயரிட்டு வழங்கினர். அவ்வாறு வழங்கிய பெயர் :",
-      "option_a": "இடு குறிப் பெயர்",
-      "option_b": "இடு குறிக் காரணப் பெயர்",
-      "option_c": "இடு குறிச் சிறப்புப் பெயர்",
-      "option_d": "காரணப் பொதுப் பெயர்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 59,
-      "subject": "Tamil",
-      "question_text": "திருச்சியை ஆண்ட விசயரகுநாத சொக்கலிங்கம் தலைமைக் கணக்கராகப் பணிபுரிந்தவர் :",
-      "option_a": "குமரகுருபரர்",
-      "option_b": "இராமலிங்க அடிகள்",
-      "option_c": "புவியரசு",
-      "option_d": "தாயுமானவர்",
-      "correct_option": ""
-    },
-    {
-      "question_number": 60,
-      "subject": "Tamil",
-      "question_text": "மௌவல் என்னும் சொல்லின் பொருள் :",
-      "option_a": "புல்வகை",
-      "option_b": "மொட்டு",
-      "option_c": "மேகம்",
-      "option_d": "மரமல்லி",
-      "correct_option": ""
-    },
-    {
-      "question_number": 61,
-      "subject": "English",
-      "question_text": "What type of figure of speech is employed in this line ?My father was boiling mad.",
-      "option_a": "Simile",
-      "option_b": "Anagram",
-      "option_c": "Metaphor",
-      "option_d": "Personification",
-      "correct_option": ""
-    },
-    {
-      "question_number": 62,
-      "subject": "English",
-      "question_text": "What is the meaning of the word 'Scarecrow' ?",
-      "option_a": "turn up soil with a plough",
-      "option_b": "a figure made to look like a person and put in a field to frighten birds away",
-      "option_c": "a vehicle with two or four wheels driven by bulls",
-      "option_d": "the metal cover worn to protect the body in battle",
-      "correct_option": ""
-    },
-    {
-      "question_number": 63,
-      "subject": "English",
-      "question_text": "Fill up the following with appropriate articles :_______ boy in red shirt is _______ cricketer.",
-      "option_a": "a, The",
-      "option_b": "a, a",
-      "option_c": "The, The",
-      "option_d": "The, a",
-      "correct_option": ""
-    },
-    {
-      "question_number": 64,
-      "subject": "English",
-      "question_text": "Among the given example which is not an informal greetings ?",
-      "option_a": "How are you",
-      "option_b": "It's great to see you",
-      "option_c": "Hello Ms. Shylyn. How are you today?",
-      "option_d": "What's up.",
-      "correct_option": ""
-    },
-    {
-      "question_number": 65,
-      "subject": "English",
-      "question_text": "Identify the underlined expression that must be changed to correct the sentence.When I woke up (a) My roommate (b) Left the room (c) already (d)",
-      "option_a": "(a)",
-      "option_b": "(b)",
-      "option_c": "(c)",
-      "option_d": "(d)",
-      "correct_option": ""
-    },
-    {
-      "question_number": 66,
-      "subject": "English",
-      "question_text": "Indian Badminton Player, who started playing badminton at the age of 8 ?",
-      "option_a": "Saina Nehwal",
-      "option_b": "Mehboob Ali",
-      "option_c": "Pullela Gopichand",
-      "option_d": "P.V. Sindhu",
-      "correct_option": ""
-    },
-    {
-      "question_number": 67,
-      "subject": "English",
-      "question_text": "The colon is used to show that _______",
-      "option_a": "Something is wrong.",
-      "option_b": "Something is right.",
-      "option_c": "Something is to follow.",
-      "option_d": "Something is to end.",
-      "correct_option": ""
-    },
-    {
-      "question_number": 68,
-      "subject": "English",
-      "question_text": "What makes poems or songs fun to sing ?",
-      "option_a": "Rhyme Scheme",
-      "option_b": "Alliteration",
-      "option_c": "Assonance",
-      "option_d": "Rhyming words",
-      "correct_option": ""
-    },
-    {
-      "question_number": 69,
-      "subject": "English",
-      "question_text": "'Dendrochonology' means :",
-      "option_a": "Method of finding birds age",
-      "option_b": "Method of tree ring dating to find its age",
-      "option_c": "Method of finding animals",
-      "option_d": "Method of finding treasures",
-      "correct_option": ""
-    },
-    {
-      "question_number": 70,
-      "subject": "English",
-      "question_text": "What is the expansion of BFW ?",
-      "option_a": "Baseball World Federation",
-      "option_b": "Badminton World Function",
-      "option_c": "Billiards World Festival",
-      "option_d": "Badminton World Federation",
-      "correct_option": ""
-    },
-    {
-      "question_number": 71,
-      "subject": "English",
-      "question_text": "In which Indian traditional art was George Krokos familiar with _______.",
-      "option_a": "Carnatic music",
-      "option_b": "Yoga",
-      "option_c": "Karagaattam",
-      "option_d": "Silambattam",
-      "correct_option": ""
-    },
-    {
-      "question_number": 72,
-      "subject": "English",
-      "question_text": "Choose the correct antonyms for the underlined word.He has a latest mobile.",
-      "option_a": "Out dated",
-      "option_b": "New",
-      "option_c": "Stroke",
-      "option_d": "Modern",
-      "correct_option": ""
-    },
-    {
-      "question_number": 73,
-      "subject": "English",
-      "question_text": "Select the correct pair :If breeze: gentle; Storm:?",
-      "option_a": "wind",
-      "option_b": "sea",
-      "option_c": "violent",
-      "option_d": "rain",
-      "correct_option": ""
-    },
-    {
-      "question_number": 74,
-      "subject": "English",
-      "question_text": "Pick out the alliterated words from the list below :",
-      "option_a": "absent - minded",
-      "option_b": "naughty- gobbled",
-      "option_c": "behaving - badly",
-      "option_d": "computer - virus",
-      "correct_option": ""
-    },
-    {
-      "question_number": 75,
-      "subject": "English",
-      "question_text": "What is the time in the clock ?",
-      "option_a": "Half past 3",
-      "option_b": "Quarter past 3",
-      "option_c": "Quarter to 3",
-      "option_d": "Quarter to 4",
-      "correct_option": ""
-    },
-    {
-      "question_number": 76,
-      "subject": "English",
-      "question_text": "It is a detailed plan for a journey included with dates, time, stops, activities and mode of transport.",
-      "option_a": "Diary",
-      "option_b": "Travelogue",
-      "option_c": "Itinerary",
-      "option_d": "Trip",
-      "correct_option": ""
-    },
-    {
-      "question_number": 77,
-      "subject": "English",
-      "question_text": "Match the professionals with their properties :(a) Doctor(i) Steering(b) Navy(ii) Space ship(c) Driver(iii) Stethoscope(d) Astronaut(iv) War ship",
-      "option_a": "(a) - (iii), (b) - (i), (c) - (ii), (d) - (iv)",
-      "option_b": "(a) - (iv), (b) - (iii), (c) - (i), (d) - (ii)",
-      "option_c": "(a) - (iii), (b) - (iv), (c) - (i), (d) - (ii)",
-      "option_d": "(a) - (iii), (b) - (ii), (c) - (i), (d) - (iv)",
-      "correct_option": ""
-    },
-    {
-      "question_number": 78,
-      "subject": "English",
-      "question_text": "Pick out the correct sentence which has right sequence of adjectives.",
-      "option_a": "They have a small, rectangular, red post box",
-      "option_b": "They have a rectangular, small, red post box",
-      "option_c": "They have a red, small, rectangular post box",
-      "option_d": "They have a rectangular, red, small post box",
-      "correct_option": ""
-    },
-    {
-      "question_number": 79,
-      "subject": "English",
-      "question_text": "Read the sentence and find the parts of speech for the underlined words.They would rest on their favourite tree in the forest.",
-      "option_a": "adverb, adjective",
-      "option_b": "adverb, preposition",
-      "option_c": "adjective, preposition",
-      "option_d": "adjective, conjunction",
-      "correct_option": ""
-    },
-    {
-      "question_number": 80,
-      "subject": "English",
-      "question_text": "Fill in the blanks with correct verb forms.If I had enough money. I _______ (help) the needy.",
-      "option_a": "would have helped",
-      "option_b": "would helped",
-      "option_c": "would had helped",
-      "option_d": "will have helped",
-      "correct_option": ""
-    },
-    {
-      "question_number": 81,
-      "subject": "English",
-      "question_text": "Identify the error:Raja/met/ his friend/ just nowA B C D",
-      "option_a": "A",
-      "option_b": "B",
-      "option_c": "C",
-      "option_d": "D",
-      "correct_option": ""
-    },
-    {
-      "question_number": 82,
-      "subject": "English",
-      "question_text": "Which way shall we go?What kind of adjective is the word 'which'?",
-      "option_a": "Demonstrative adjective",
-      "option_b": "Adjective of number",
-      "option_c": "Interrogative adjective",
-      "option_d": "Adjective of quality",
-      "correct_option": ""
-    },
-    {
-      "question_number": 83,
-      "subject": "English",
-      "question_text": "The antigram of the word epitaphs is :",
-      "option_a": "happy",
-      "option_b": "happiest",
-      "option_c": "happier",
-      "option_d": "happily",
-      "correct_option": ""
-    },
-    {
-      "question_number": 84,
-      "subject": "English",
-      "question_text": "Find the phrasal verb for the meaning \"to continue doing something\".",
-      "option_a": "Keep up",
-      "option_b": "Keep on",
-      "option_c": "Keep in",
-      "option_d": "Keep off",
-      "correct_option": ""
-    },
-    {
-      "question_number": 85,
-      "subject": "English",
-      "question_text": "Choose the correct sentence.",
-      "option_a": "I cannot cope with this pressure",
-      "option_b": "I cannot cope on this pressure",
-      "option_c": "I cannot cope up with this pressure",
-      "option_d": "I cannot cope this pressure",
-      "correct_option": ""
-    },
-    {
-      "question_number": 86,
-      "subject": "English",
-      "question_text": "The collective noun for 'bee' is :",
-      "option_a": "Fleet",
-      "option_b": "Swarm",
-      "option_c": "Herd",
-      "option_d": "Band",
-      "correct_option": ""
-    },
-    {
-      "question_number": 87,
-      "subject": "English",
-      "question_text": "Fill in the blanks with correct homophones.The _______ of the school is a man of _______.",
-      "option_a": "Principal, Principle",
-      "option_b": "Principle, Principal",
-      "option_c": "Principal, Principal",
-      "option_d": "Principle, Principle",
-      "correct_option": ""
-    },
-    {
-      "question_number": 88,
-      "subject": "English",
-      "question_text": "I _______ my exercise, when Raj _______ to see me.",
-      "option_a": "had done, came",
-      "option_b": "came, had done",
-      "option_c": "done, had come",
-      "option_d": "had come, done",
-      "correct_option": ""
-    },
-    {
-      "question_number": 89,
-      "subject": "English",
-      "question_text": "Change the underlined masculine noun into feminine noun.The dog is known for its cruelty.",
-      "option_a": "Hen",
-      "option_b": "Goose",
-      "option_c": "Mare",
-      "option_d": "Vixen",
-      "correct_option": ""
-    },
-    {
-      "question_number": 90,
-      "subject": "English",
-      "question_text": "Fill in the blank with words given below to make a compound word.My grandfather used walking _______.",
-      "option_a": "stick",
-      "option_b": "coat",
-      "option_c": "bow",
-      "option_d": "maker",
-      "correct_option": ""
-    },
-    {
-      "question_number": 91,
-      "subject": "Mathematics",
-      "question_text": "Sum of a number and 5/8 times of the same number is 26. Find that number.ஒரு எண் மற்றும் அதன் 8ல் 5 பங்கு ஆகியவற்றின் கூடுதல் 26 எனில், அந்த எண்ணைக் காண்க.",
-      "option_a": "8",
-      "option_b": "16",
-      "option_c": "24",
-      "option_d": "32",
-      "correct_option": ""
-    },
-    {
-      "question_number": 92,
-      "subject": "Mathematics",
-      "question_text": "6765 apples have to be loaded in a tempo van. If 15 apples are arranged in one basket, then how many baskets will be needed to arrange all the apples?ஒரு சரக்கு வண்டியில் 6765 ஆப்பிள்கள் ஏற்றப்படுகிறது. ஒரு கூடையில் 15 ஆப்பிள்களை அடுக்கினால், மொத்த ஆப்பிள்களை அடுக்க எத்தனை கூடைகள் தேவைப்படும்?",
-      "option_a": "441",
-      "option_b": "351",
-      "option_c": "341",
-      "option_d": "451",
-      "correct_option": ""
-    },
-    {
-      "question_number": 93,
-      "subject": "Mathematics",
-      "question_text": "The sum of 1+3+5+7+..... + 31 is:1+3+5+7+..... +31 இன் கூடுதல்:",
-      "option_a": "961",
-      "option_b": "256",
-      "option_c": "16",
-      "option_d": "324",
-      "correct_option": ""
-    },
-    {
-      "question_number": 94,
-      "subject": "Mathematics",
-      "question_text": "The cost of 1 box of tomato is Rs. 200. Vendan had money to buy 13 boxes. If the cost of the box is increased to Rs. 260 then how many boxes will he buy with the same amount?ஒரு பெட்டி தக்காளியின் விலை ரூ. 200. வேந்தன் அவரிடம் உள்ள பணத்தில் 13 பெட்டிகளை வாங்கினார். ஒரு பெட்டியின் விலை ரூ. 260 என அதிகரித்தால் அவரிடம் உள்ள பணத்தை வைத்து எத்தனை பெட்டிகள் வாங்க முடியும்?",
-      "option_a": "15",
-      "option_b": "20",
-      "option_c": "30",
-      "option_d": "10",
-      "correct_option": ""
-    },
-    {
-      "question_number": 95,
-      "subject": "Mathematics",
-      "question_text": "In a village 1500 ltr of fruit juice was prepared. If the juice was given 300 ml to each of the public. How many members will it be distributed ?ஒரு கிராமத்தில் 1500 லிட்டர் ஜுஸ் தயாரிக்கப் படுகிறது அதனை 300 மிலி வீதம் பொது மக்களுக்கு வழங்கும்போது எத்தனை பேருக்கு வழங்கலாம்?",
-      "option_a": "5",
-      "option_b": "50",
-      "option_c": "500",
-      "option_d": "5000",
-      "correct_option": ""
-    },
-    {
-      "question_number": 96,
-      "subject": "Mathematics",
-      "question_text": "The number of digits in the square root of 1522756 is :1522756 -ன் வர்க்கமூலத்தில் உள்ள இலக்கங்களின் எண்ணிக்கையானது _______ ஆகும்.",
-      "option_a": "4",
-      "option_b": "5",
-      "option_c": "6",
-      "option_d": "7",
-      "correct_option": ""
-    },
-    {
-      "question_number": 97,
-      "subject": "Mathematics",
-      "question_text": "Find the value of x.(15x/30) × (6/5) = 21x -ன் மதிப்பைக் காண்க.15x/30 × 6/5 = 21",
-      "option_a": "205/28",
-      "option_b": "155/28",
-      "option_c": "105/18",
-      "option_d": "145/48",
-      "correct_option": ""
-    },
-    {
-      "question_number": 98,
-      "subject": "Mathematics",
-      "question_text": "Find the ratio between perimeter of square and circumference of the circle in the given figure.கொடுக்கப்பட்ட படத்தில், சதுரத்தின் சுற்றளவுக்கும் வட்டத்தின் சுற்றளவுக்கும் உள்ள விகிதம் காண்க.",
-      "option_a": "2: π",
-      "option_b": "π: 2",
-      "option_c": "4: π",
-      "option_d": "π: 4",
-      "correct_option": ""
-    },
-    {
-      "question_number": 99,
-      "subject": "Mathematics",
-      "question_text": "HCF and LCM of 90, 150, 225 are :90, 150, 225 ன் மீ.பொ.வ., மற்றும் மீ.பொ.ம.",
-      "option_a": "450, 25",
-      "option_b": "90, 225",
-      "option_c": "15, 450",
-      "option_d": "225, 150",
-      "correct_option": ""
-    },
-    {
-      "question_number": 100,
-      "subject": "Mathematics",
-      "question_text": "If \"BOARD\" is 1140173 then \"CHART\" is :\"BOARD\" என்பது 1140173 எனில், \"CHART\" என்பது :",
-      "option_a": "2701718",
-      "option_b": "2701719",
-      "option_c": "3811820",
-      "option_d": "3801820",
-      "correct_option": ""
-    },
-    {
-      "question_number": 101,
-      "subject": "Mathematics",
-      "question_text": "12% of 300 kg is the same as _______ of 720 kg.300 கிகி ன் 12% என்பது 720 கிகி ன் _______க்கு சமம்.",
-      "option_a": "5%",
-      "option_b": "7%",
-      "option_c": "10%",
-      "option_d": "15%",
-      "correct_option": ""
-    },
-    {
-      "question_number": 102,
-      "subject": "Mathematics",
-      "question_text": "Find the sum of the following pattern 0.50 + 0.55 + 0.60 + .... + 1.0.50 + 0.55 + 0.60 + .... + 1 என்ற எண் அமைப்பின் கூடுதல் காண்க :",
-      "option_a": "8.25",
-      "option_b": "7.25",
-      "option_c": "6.25",
-      "option_d": "8.55",
-      "correct_option": ""
-    },
-    {
-      "question_number": 103,
-      "subject": "Mathematics",
-      "question_text": "If p + 2q = 18 and pq = 40. Find 2/p + 1/q.p + 2q = 18 மற்றும் pq = 40 எனில், 2/p + 1/q -ன் மதிப்பு :",
-      "option_a": "18/20",
-      "option_b": "20/9",
-      "option_c": "9/20",
-      "option_d": "8/20",
-      "correct_option": ""
-    },
-    {
-      "question_number": 104,
-      "subject": "Mathematics",
-      "question_text": "Raja bought 3 shirts, 2 jeans and 3 pairs of shoes for his birthday. He is wearing them in different ways. In how many different ways can Raja wear a dress on his birthday?இராஜா தனது பிறந்த நாளுக்காக 3 மேல் சட்டைகள், 2 முழங்கால் சட்டைகள் மற்றும் 3 ஜோடி காலணிகள் வாங்கினான். அவன் தன்னுடைய பிறந்த நாளன்று எத்தனை விதமான வழிகளில் புதிய உடைகளை அணிந்துக் கொள்வதற்கு வாய்ப்புகள் உள்ளது?",
-      "option_a": "8",
-      "option_b": "18",
-      "option_c": "11",
-      "option_d": "81",
-      "correct_option": ""
-    },
-    {
-      "question_number": 105,
-      "subject": "English",
-      "question_text": "Use Caesar Cipher table set +4 and try to find the secret word in fvieo.சீசர் மறைகுறியீடு +4 அட்டவணை தொகுப்பை பயன்படுத்தி fvieo -இல் மறைந்துள்ள இரகசிய வார்த்தையை காண்க.",
-      "option_a": "BREAK",
-      "option_b": "BRAIN",
-      "option_c": "BROWN",
-      "option_d": "BROKE",
-      "correct_option": ""
-    },
-    {
-      "question_number": 106,
-      "subject": "Mathematics",
-      "question_text": "Value of the tree diagram :என்ற மரஉரு வரைபடத்தின் எண் மதிப்பு :",
-      "option_a": "21.5",
-      "option_b": "42",
-      "option_c": "21",
-      "option_d": "21½",
-      "correct_option": ""
-    },
-    {
-      "question_number": 107,
-      "subject": "Mathematics",
-      "question_text": "Write in descending order 4/5, 2/3, 3/7 and 11/15.4/5, 2/3, 3/7 மற்றும் 11/15 ஐ இறங்கு வரிசையில் எழுதுக.",
-      "option_a": "4/5, 3/7, 2/3 and 11/15",
-      "option_b": "4/5, 2/3, 11/15 and 3/7",
-      "option_c": "2/3, 4/5, 3/7 and 11/15",
-      "option_d": "4/5, 11/15, 2/3 and 3/7",
-      "correct_option": ""
-    },
-    {
-      "question_number": 108,
-      "subject": "Mathematics",
-      "question_text": "If a class size is 10 and range is 80 then the number of classes are :பிரிவு அளவு 10 மற்றும் வீச்சு 80 எனில் பிரிவுகளின் எண்ணிக்கை _______.",
-      "option_a": "6",
-      "option_b": "8",
-      "option_c": "5",
-      "option_d": "9",
-      "correct_option": ""
-    },
-    {
-      "question_number": 109,
-      "subject": "Mathematics",
-      "question_text": "If F(n) is a Fibonacci number and n = 15 then which of the following is true ?F (n) என்பது பொதுவான பிபனோசி எண் மற்றும் n = 15 எனில், பின்வருவனவற்றில் எது உண்மை ?",
-      "option_a": "F(15)=F(12) + F(13)",
-      "option_b": "F(15) = F(10) + F(11) + F(12)",
-      "option_c": "F(15)=F(13) + F(14)",
-      "option_d": "F(15) > F(12) + F(14) + F(16)",
-      "correct_option": ""
-    },
-    {
-      "question_number": 110,
-      "subject": "Mathematics",
-      "question_text": "The value of 3/4 + (1/2 - 1/5) is _______.3/4 + (1/2 - 1/5) - ன் மதிப்பு :",
-      "option_a": "2/20",
-      "option_b": "1/20",
-      "option_c": "1/18",
-      "option_d": "1/15",
-      "correct_option": ""
-    },
-    {
-      "question_number": 111,
-      "subject": "Mathematics",
-      "question_text": "The value of a motor cycle 2 years ago was Rs. 90000. It depreciates at the rate of 7% p.a. Find its present value.இரு சக்கர வாகனம் ஒன்றின் விலை 2 ஆண்டுகளுக்கு முன் Rs.90000 ஆக இருந்தது. அதன் மதிப்பு ஆண்டுதோறும் 7% வீதம் குறைகிறது. அதன் தற்போதைய மதிப்பு காண்க :",
-      "option_a": "Rs. 77841",
-      "option_b": "Rs. 78741",
-      "option_c": "Rs. 75431",
-      "option_d": "Rs. 76431",
-      "correct_option": ""
-    },
-    {
-      "question_number": 112,
-      "subject": "Mathematics",
-      "question_text": "Naga bought a refrigerator for Rs. 10,500 and paid Rs. 1,000 for its transportation. Then he sold it for Rs. 12,650. Find his gain percentage.நாகா ஒரு குளிர்சாதனப் பெட்டியை Rs. 10,500 க்கு வாங்கினார். மேலும் அதன் போக்குவரத்துச் செலவுக்காக Rs. 1000 ஐ செலுத்தினார். பிறகு அதனை அவர் Rs. 12650 க்கு விற்றார் எனில் அவரின் இலாபச் சதவீதத்தைக் காண்க :",
-      "option_a": "10%",
-      "option_b": "15%",
-      "option_c": "5%",
-      "option_d": "20%",
-      "correct_option": ""
-    },
-    {
-      "question_number": 113,
-      "subject": "Mathematics",
-      "question_text": "A cow is tied with a rope of length 7 m at one corner of a square field of side 21 m so that it can grass from the field. Then the area of ungrassed field is :ஒரு பசுவானது 7 மீ நீளமுள்ள ஒரு கயிறினால் 21 மீ பக்க நீளமுள்ள சதுர நிலத்தின் ஒரு முனையில் அந்நிலத்தில் உள்ள புற்களை மேயுமாறு கட்டப்பட்டுள்ளது எனில் மேயாத நிலத்தின் பரப்பு :",
-      "option_a": "402.5 sq. m",
-      "option_b": "40.25 sq. m",
-      "option_c": "42.5 sq. m",
-      "option_d": "425 sq. m",
-      "correct_option": ""
-    },
-    {
-      "question_number": 114,
-      "subject": "Mathematics",
-      "question_text": "The radius of a sector is 24 cm and it's central angle is 140°, the area of the sector is :ஒரு வட்ட கோணப் பகுதியின் ஆரம் 24 செ.மீ மற்றும் அதன் மையக் கோணம் 140° எனில் அதன் பரப்பளவு:",
-      "option_a": "704 sq. cm",
-      "option_b": "56/3 π cm",
-      "option_c": "134/3 π cm",
-      "option_d": "224 π cm",
-      "correct_option": ""
-    },
-    {
-      "question_number": 115,
-      "subject": "Mathematics",
-      "question_text": "A circular shaped gymnasium ring of radius 42 cm is divided into 6 equal arcs shaded with different colours. The length of each of the arc is :42 செ.மீ ஆரமுள்ள வட்ட வடிவிலான ஜிம்னாஸ்டிக் வளையமானது 6 சம அளவுள்ள விற்களாகப் பிரிக்கப்பட்டு வெவ்வேறு நிறங்களில் வண்ணமிடப்பட்டுள்ளது எனில் ஒவ்வொரு வட்ட வில்லின் நீளம் : :",
-      "option_a": "42 cm",
-      "option_b": "43 cm",
-      "option_c": "44 cm",
-      "option_d": "14π cm",
-      "correct_option": ""
-    },
-    {
-      "question_number": 116,
-      "subject": "Mathematics",
-      "question_text": "If the circumference of the circle is 154 m then the radius is :ஒரு வட்டத்தின் சுற்றளவு 154 m எனில் வட்டத்தின் ஆரம் :",
-      "option_a": "49/2 m",
-      "option_b": "49 m",
-      "option_c": "25 m",
-      "option_d": "16 m",
-      "correct_option": ""
-    },
-    {
-      "question_number": 117,
-      "subject": "Mathematics",
-      "question_text": "The ratio of 3 hours 30 minutes to 6 hours 30 minutes is :3 மணி 30 நிமிடத்திற்கும் 6 மணி 30 நிமிடத்திற்கும் உள்ள விகிதம் :",
-      "option_a": "11:21",
-      "option_b": "21:11",
-      "option_c": "1:2",
-      "option_d": "7:13",
-      "correct_option": ""
-    },
-    {
-      "question_number": 118,
-      "subject": "Mathematics",
-      "question_text": "The area and the perimeter of a circle are equal in numbers, then its radius is :ஒரு வட்டத்தின் பரப்பும் அதன் சுற்றளவும் எண்ணளவில் சமம் எனில், அதன் ஆரம் :",
-      "option_a": "16 units",
-      "option_b": "8 units",
-      "option_c": "4 units",
-      "option_d": "2 units",
-      "correct_option": ""
-    },
-    {
-      "question_number": 119,
-      "subject": "Mathematics",
-      "question_text": "Two poles of the heights 6 m and 11 m stand vertically on a plane ground. If the distance between their feet is 12 m. What is the distance between their tops ?6 மீ மற்றும் 11 மீ உயரமுள்ள இரு கம்பங்கள் சமதளத் தரையில் செங்குத்தாக உள்ளன. அவற்றின் அடிகளுக்கு இடையேயுள்ள தொலைவு 12 மீ எனில் உச்சிகளுக்கு இடைப்பட்ட தொலைவு :",
-      "option_a": "13 m",
-      "option_b": "14 m",
-      "option_c": "15 m",
-      "option_d": "12.8 m",
-      "correct_option": ""
-    },
-    {
-      "question_number": 120,
-      "subject": "Mathematics",
-      "question_text": "A family went to a hotel and spent Rs 500 for food and paid extra 5% as GST, calculate the CGST.ஒரு குடும்பம் உணவகம் ஒன்றுக்குச் சென்று உணவுக்காக ரூ. 500 ஐச் செலவிட்டு கூடுதலாக சரக்கு மற்றும் சேவை வரியாக 5% செலுத்தியது எனில் மத்திய சரக்கு சேவை வரி :",
-      "option_a": "Rs 5",
-      "option_b": "Rs 2.5",
-      "option_c": "Rs 12.5",
-      "option_d": "Rs 7.5",
-      "correct_option": ""
-    },
-    {
-      "question_number": 121,
-      "subject": "Science/Social Science",
-      "question_text": "After Independence our Indian flag was first woven at _______சுதந்திரத்திற்கு பிறகு இந்தியாவின் முதல் தேசியக் கொடி நெய்யப்பட்ட இடம் _______",
-      "option_a": "Guntur",
-      "option_b": "Tirupur",
-      "option_c": "Gudiyatham",
-      "option_d": "Calcutta",
-      "correct_option": ""
-    },
-    {
-      "question_number": 122,
-      "subject": "Science/Social Science",
-      "question_text": "Rabi season :ராபி பருவம் :",
-      "option_a": "April-June",
-      "option_b": "June-September",
-      "option_c": "November-December",
-      "option_d": "October-March",
-      "correct_option": ""
-    },
-    {
-      "question_number": 123,
-      "subject": "Science/Social Science",
-      "question_text": "_______ is one of the Biggest Black Tea producers in India._______ இந்தியாவில் கருப்பு வகை டீ உற்பத்தியில் முன்னணி வகிக்கும் நிறுவனங்களில் ஒன்று.",
-      "option_a": "TAN TEA",
-      "option_b": "CHAKRA TEA",
-      "option_c": "TATA TEA",
-      "option_d": "TAJ TEA",
-      "correct_option": ""
-    },
-    {
-      "question_number": 124,
-      "subject": "Science/Social Science",
-      "question_text": "Choose the correct option from the given below :Assertion (A): Project Tiger was launched in April 1973.Reason (R): To conserve Tigers and to increase the population specifically constituted \"Tiger Reserve\" in India.கீழ்க்காணும் வாக்கியங்களைக் கருத்தில் கொண்டு கொடுக்கப்பட்டுள்ளவற்றில் சரியான விடையைத் தேர்வு செய்யவும் :கூற்று : புலிகள் பாதுகாப்பு திட்டம் ஏப்ரல் 1973-ல் தொடங்கப்பட்டது.காரணம்: புலிகளை பாதுகாக்கவும் அதன் எண்ணிக்கையை அதிகரிக்கும் நோக்கத்தோடும் புலிகள் பாதுகாப்பகங்கள் தொடங்கப்பட்டன.",
-      "option_a": "Both (A) and (R) are true (R) explains (A)",
-      "option_b": "Both (A) and (R) are true(R) does not explain (A)",
-      "option_c": "(A) is true (R) is false",
-      "option_d": "(A) is false (R) is true",
-      "correct_option": ""
-    },
-    {
-      "question_number": 125,
-      "subject": "Science/Social Science",
-      "question_text": "Match the following(a) Cedar(i) Tropical Dry Forest(b) Teak(ii) Tropical Thorn Forest(c) Amaltas(iii) Tropical Evergreen Forest(d) Wild Palms(iv) Tropical Deciduous Forestபொருத்துக:(1) சிடார்(அயன மண்டல வறண்ட காடுகள்)(2) தேக்கு(அயன மண்டல முட்புதர் காடுகள்)(3) ஆவாரம் பூ மரம்(அயன மண்டல பசுமை மாறாக் காடுகள்)(4) ஈச்ச மரம்(அயன மண்டல இலையுதிர்க் காடுகள்)",
-      "option_a": "(a)-(i), (b)-(ii), (c)- (iii), (d)-(iv)",
-      "option_b": "(a)-(i), (b)-(ii), (c)- (iv), (d)-(iii)",
-      "option_c": "(a)-(iii), (b)-(iv), (c)- (i), (d)-(ii)",
-      "option_d": "(a)-(ii), (b)-(iii), (c)- (i), (d)-(iv)",
-      "correct_option": ""
-    },
-    {
-      "question_number": 126,
-      "subject": "Science/Social Science",
-      "question_text": "Match the following:(a) Madurai(i) Inland traders(b) Gangaikonda Cholapuram(ii) Maritime traders(c) Anju-Vannattar(iii) Capital of Cholas(d) Mani-gramattar(iv) Capital of Pandyasகீழ்க்கண்டவற்றை பொருத்துக:(a) மதுரை(i) உள்நாட்டு வணிகர்(b) கங்கை கொண்ட சோழபுரம்(ii) கடல்சார் வணிகர்(c) அஞ்சு வண்ணத்தார்(iii) சோழர்களின் தலைநகர்(d) மணி - கிராமத்தார்(iv) பாண்டியர்களின் தலைநகர்",
-      "option_a": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
-      "option_b": "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
-      "option_c": "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
-      "option_d": "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
-      "correct_option": ""
-    },
-    {
-      "question_number": 127,
-      "subject": "Science/Social Science",
-      "question_text": "Which one of the following is Fresh water algae ?கீழே உள்ளவற்றுள் 'நன்னீர் பாசி' எது?",
-      "option_a": "Polychyphonia",
-      "option_b": "Sargasam",
-      "option_c": "Chylamidomonas",
-      "option_d": "Ulva",
-      "correct_option": ""
-    },
-    {
-      "question_number": 128,
-      "subject": "Science/Social Science",
-      "question_text": "At present how many High Courts are there in India?தற்போது வரை இந்தியாவில் எத்தனை உயர்நீதிமன்றங்கள் உள்ளன?",
-      "option_a": "26",
-      "option_b": "25",
-      "option_c": "24",
-      "option_d": "27",
-      "correct_option": ""
-    },
-    {
-      "question_number": 129,
-      "subject": "Science/Social Science",
-      "question_text": "Which one of the following factor determinate Arid and desert soils ?வறண்ட பாலை மண் உருவாக காரணம் யாது?",
-      "option_a": "Formed in humid regions from the organic matter",
-      "option_b": "Derived from basalts of Deccan trap",
-      "option_c": "Due to prevalence of the dry climate",
-      "option_d": "Sediments deposited by streams and river when they run slowly",
-      "correct_option": ""
-    },
-    {
-      "question_number": 130,
-      "subject": "Science/Social Science",
-      "question_text": "In the coastal regions the speed of Tsunami is _______ km/hகடற்கரைப் பகுதிகளில் சுனாமியின் வேகம் சுமார் _______ கி.மீ/மணி",
-      "option_a": "180 to 240",
-      "option_b": "640 to 960",
-      "option_c": "420 to 760",
-      "option_d": "240 to 460",
-      "correct_option": ""
-    },
-    {
-      "question_number": 131,
-      "subject": "Science/Social Science",
-      "question_text": "An organism which is generally multicellular, eukaryotic, saprophytic parasitic and lacks chlorophyll, according to R.H. Whitaker in which Kingdom will you insert this organism?ஒரு உயிரினம் பொதுவாக பல செல், யூகேரியாட்டிக், சாறுண்ணி, ஒட்டுண்ணி மற்றும் பச்சையமற்ற நிலையில் உள்ளது. R.H. விட்டேக்கரின் வகைப்பாட்டின்படி அவ்வுயிரினத்தை எந்த உலகத்தில் இணைப்பாய்?",
-      "option_a": "Monera",
-      "option_b": "Protista",
-      "option_c": "Fungi",
-      "option_d": "Plantae",
-      "correct_option": ""
-    },
-    {
-      "question_number": 132,
-      "subject": "Science/Social Science",
-      "question_text": "Imagine you are cutting a stem portion of a rose plant in order to posting it in a pot. Which hormone will you spray to get rooting?ஒரு ரோஜா செடியின் தண்டுப் பகுதியை வெட்டி எடுத்து ஒரு பூந்தொட்டியில் பதியம் போடுவதாக நினைத்துக் கொள்ளுங்கள், அப்பதியத்தில் வேர்கள் வளர்ச்சியை தூண்டுவதற்கு எந்த ஹார்மோனை நீங்கள் தெளிப்பீர்கள்?",
-      "option_a": "Auxin",
-      "option_b": "Gibberellin",
-      "option_c": "Cytokinin",
-      "option_d": "Abscisic acid",
-      "correct_option": ""
-    },
-    {
-      "question_number": 133,
-      "subject": "Science/Social Science",
-      "question_text": "In which process, the light energy is converted into chemical energy?எந்த நிகழ்வின்பொழுது ஒளி ஆற்றலானது வேதி ஆற்றலாக மாற்றப்படுகிறது?",
-      "option_a": "Transpiration",
-      "option_b": "Respiration",
-      "option_c": "Photosynthesis",
-      "option_d": "Photorespiration",
-      "correct_option": ""
-    },
-    {
-      "question_number": 134,
-      "subject": "Science/Social Science",
-      "question_text": "Do which phylum does Ascaris lumbricoides belongs ?அஸ்காரிஸ் லும்பிரிக்காய்ட்டஸ் எந்த தொகுதியை சேர்ந்தது?",
-      "option_a": "Nematoda",
-      "option_b": "Annelida",
-      "option_c": "Arthropoda",
-      "option_d": "Echinodermata",
-      "correct_option": ""
-    },
-    {
-      "question_number": 135,
-      "subject": "Science/Social Science",
-      "question_text": "Movement of the plant due to the stimulus of water is _______நீரின் தூண்டுதலுக்கு ஏற்ப தாவரபாகம் நகர்தல் _______",
-      "option_a": "Geotropism",
-      "option_b": "Phototropism",
-      "option_c": "Hydrotropism",
-      "option_d": "Thigmotropism",
-      "correct_option": ""
-    },
-    {
-      "question_number": 136,
-      "subject": "Science/Social Science",
-      "question_text": "Find the one which is not the function of calcium :(i) Regulates nerves(ii) Clotting of blood(iii) Controls muscle contraction(iv) Formation of thyroid hormoneஇதில் எது கால்சியத்தின் செயல்பாடுகள் இல்லை?(i) நரம்புகளை ஒழுங்குப்படுத்துதல்(ii) இரத்தம் உறைதல்(iii) தசை சுருக்க செயல்பாடு(iv) தைராய்டு ஹார்மோனை உருவாக்குதல்",
-      "option_a": "(i) and (iv) only",
-      "option_b": "(ii) and (iii) only",
-      "option_c": "(i), (iii) and (iv) only",
-      "option_d": "(i), (ii) and (iv) only",
-      "correct_option": ""
-    },
-    {
-      "question_number": 137,
-      "subject": "Science/Social Science",
-      "question_text": "Match the following:(a) Retina(i) Maintain the shape of the eye(b) Optic nerve(ii) Converting the light rays into impulses(c) Aqueous Humour(iii) For carrying nerve impulses from the retina to the brain(d) Vitreous Humour(iv) Responsible for the nourishment of both the lens and the corneaபொருத்துக:(a) விழித்திரை(i) கண்ணின் வடிவத்தை பராமரிக்கிறது.(b) பார்வை நரம்பு(ii) ஒளிக்கதிர்களை மின்தூண்டல்களாக மாற்றி மூளைக்கு அனுப்புகிறது.(c) அக்குவஸ் திரவம்(iii) நரம்புதூண்டல்களை மூளைக்கு அனுப்புகிறது.(d) விட்ரியல் திரவம்(iv) லென்சுக்கு ஊட்டமளிக்கிறது.",
-      "option_a": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
-      "option_b": "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
-      "option_c": "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)",
-      "option_d": "(a)-(iii), (b)-(i), (c)-(iv),(d)-(ii)",
-      "correct_option": ""
-    },
-    {
-      "question_number": 138,
-      "subject": "Science/Social Science",
-      "question_text": "In respiration process, the diffusion of gases occurs across the :சுவாசித்தல் நிகழ்வின் போது வாயுக்களின் ஊடுருவல் எவ்வழியாக நடைபெறும்?",
-      "option_a": "Pleura",
-      "option_b": "Alveolar membrane",
-      "option_c": "Trachea",
-      "option_d": "Nostrils",
-      "correct_option": ""
-    },
-    {
-      "question_number": 139,
-      "subject": "Science/Social Science",
-      "question_text": "Largest bone in the human face is :மனித முகத்தில் காணப்படும் மிக நீண்ட எலும்பு :",
-      "option_a": "Lower jaw",
-      "option_b": "Nasal bone",
-      "option_c": "Occipital bone",
-      "option_d": "Temporal bone",
-      "correct_option": ""
-    },
-    {
-      "question_number": 140,
-      "subject": "Science/Social Science",
-      "question_text": "The honeybees collect this from the flower :தேனீக்கள் மலரிடமிருந்து சேமிக்கும் பொருள் :",
-      "option_a": "Nectar",
-      "option_b": "Honey",
-      "option_c": "Royal Jelly",
-      "option_d": "Seeds",
-      "correct_option": ""
-    },
-    {
-      "question_number": 141,
-      "subject": "Science/Social Science",
-      "question_text": "In 1980, Rohini became the first Satellite to be placed in orbit by an Indian made Launch Vehicle _______.1980 – இல் இந்தியாவால் உருவாக்கப்பட்ட _______ ஏவுகணை வாகனம் மூலம் சுற்றுப்பாதையில் ஏவப்பட்ட முதல் துணைக் கோள் என்னும் பெருமை ரோஹினி என்ற செயற்கை கோளைச் சாரும்.",
-      "option_a": "PSLV 3",
-      "option_b": "SLV 3",
-      "option_c": "SLV 2",
-      "option_d": "PSLV 4",
-      "correct_option": ""
-    },
-    {
-      "question_number": 142,
-      "subject": "Science/Social Science",
-      "question_text": "Find out the characteristics of potable water :(i) colourless and odourless(ii) should have dissolved impurities(iii) should have dissolved gases(iv) should have microorganism to add taste(v) should have dissolved mineralsகுடிக்க உகந்த நீரின் தன்மைகளை கண்டறிக:(i) நிறமற்றது மற்றும் மணமற்றது(ii) மாசுகளாய் இருத்தல் வேண்டும்(iii) வாயுக்கள் கலந்திருக்க வேண்டும்(iv) நுண்ணுயிர்கள் சுவையை அதிகரிக்க கலந்திருக்க வேண்டும்(v) தாதுக்கள் கலந்திருக்க வேண்டும்",
-      "option_a": "(i), (iii) and (v) only",
-      "option_b": "(i), (ii) and (iv) only",
-      "option_c": "(i), (iii) and (iv) only",
-      "option_d": "(i), (iv) and (v) only",
-      "correct_option": ""
-    },
-    {
-      "question_number": 143,
-      "subject": "Science/Social Science",
-      "question_text": "Permanent hardness of water is removed by the addition of :நீரின் கடினத்தன்மையை நிரந்தரமாக நீக்குவதற்கு அதனுடன் சேர்க்கப்படுவது :",
-      "option_a": "Washing soda",
-      "option_b": "Baking soda",
-      "option_c": "Calcium",
-      "option_d": "Oxygen",
-      "correct_option": ""
-    },
-    {
-      "question_number": 144,
-      "subject": "Science/Social Science",
-      "question_text": "Calculate the numbers of neutrons and electrons of 13Al27 and 11Na23 atoms.13Al27 மற்றும் 11Na23 அணுக்களில் உள்ள நியூட்ரான்கள் மற்றும் எலக்ட்ரான்களை கணக்கிடுக:",
-      "option_a": "14 and 13, 12 and 11",
-      "option_b": "13 and 14, 11 and 12",
-      "option_c": "13 and 13, 11 and 11",
-      "option_d": "27 and 27, 23 and 23",
-      "correct_option": ""
-    },
-    {
-      "question_number": 145,
-      "subject": "Science/Social Science",
-      "question_text": "Combination of conventional aquaculture with hydroponic in a symbiotic is called _______நீரில் வளர்க்கும் முறையும், மண்ணில்லா வேளாண்மையும் இணைந்து உருவான முறை _______",
-      "option_a": "Aquaculture",
-      "option_b": "Hydroponics",
-      "option_c": "Aeroponics",
-      "option_d": "Aquaponics",
-      "correct_option": ""
-    },
-    {
-      "question_number": 146,
-      "subject": "Science/Social Science",
-      "question_text": "In the formation of ionic bond in Magnesium chloride (MgCl2), Magnesium lose two electron and attain the electronic configuration of what?மக்னீசியம் குளோரைடில் (MgC2) அயனிப் பிணைப்பு உருவாதலில் மக்னீசியம் இரண்டு எலெக்ட்ரான்களை இழந்து எதன் எலெக்ட்ரான் அமைப்பை அடைகிறது?",
-      "option_a": "Neon",
-      "option_b": "Argon",
-      "option_c": "Krypton",
-      "option_d": "Helium",
-      "correct_option": ""
-    },
-    {
-      "question_number": 147,
-      "subject": "Science/Social Science",
-      "question_text": "The medical solid wastes are disposed by the method :மருத்துவ திட கழிவுகள் இம்முறையில் அகற்றப்படுகிறது :",
-      "option_a": "Segregation",
-      "option_b": "Sanitary land fill",
-      "option_c": "Incineration",
-      "option_d": "Composting",
-      "correct_option": ""
-    },
-    {
-      "question_number": 148,
-      "subject": "Science/Social Science",
-      "question_text": "Vinegar is prepared from :வினிகர் ஆனது கீழ்கண்டவற்றில் எவற்றில் இருந்து தயாரிக்கப்படுகிறது?",
-      "option_a": "Acetic acid",
-      "option_b": "Oxalic acid",
-      "option_c": "Formic acid",
-      "option_d": "Sulphuric acid",
-      "correct_option": ""
-    },
-    {
-      "question_number": 149,
-      "subject": "Science/Social Science",
-      "question_text": "In the series electric circuit the supply voltage V is calculated using the formula :தொடர் மின்சுற்றில் மின் மூலத்திலிருந்து கொடுக்கப்படும் மின்னழுத்தத்தைக் (V) கணக்கிட உதவும் வாய்பாடு :",
-      "option_a": "V=V1+V2 + V3 + .... + Vn",
-      "option_b": "V=1/V1 + 1/V2 + 1/V3 + .... + 1/Vn",
-      "option_c": "V=1/(V1+V2) + 1/(V2 + V3) + 1/(V3+V1)",
-      "option_d": "V = 2(V1 + V2 + V3)",
-      "correct_option": ""
-    },
-    {
-      "question_number": 150,
-      "subject": "Science/Social Science",
-      "question_text": "Solar cells is made up of :சூரிய மின்கலன்கள் எதனால் ஆனது?",
-      "option_a": "aluminium",
-      "option_b": "silicon",
-      "option_c": "copper",
-      "option_d": "steel",
-      "correct_option": ""
-    }
-  ]
+    "questions": [
+        {
+            "question_number": 1,
+            "subject": "Education/Psychology",
+            "question_text": "An example for complex concept is: சிக்கலான பொதுமைக் கருத்திற்கு எடுத்துக்காட்டு:",
+            "option_a": "Source of energy ஆற்றல் மூலங்கள்",
+            "option_b": "Green பச்சை",
+            "option_c": "Square சதுரம்",
+            "option_d": "Tall உயரம்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 2,
+            "subject": "Education/Psychology",
+            "question_text": "Who published his work in \"Mind in Society\" ? தனது கருத்துக்களை \"Mind in Society\" என்ற இதழில் வெளியிட்டவர் :",
+            "option_a": "Jung யூங்",
+            "option_b": "Morgan மோர்கன்",
+            "option_c": "Vygotsky வைகாட்ஸ்கி",
+            "option_d": "Piaget பியாஜே",
+            "correct_option": ""
+        },
+        {
+            "question_number": 3,
+            "subject": "Education/Psychology",
+            "question_text": "The Insight learning is researched by: உட்காட்சி கற்றலைப்பற்றி முதலில் ஆய்வு செய்தவர்:",
+            "option_a": "Vygotsky வைகாட்ஸ்கி",
+            "option_b": "Piaget பியாஜே",
+            "option_c": "Kohler கோக்லர்",
+            "option_d": "Watson வாட்சன்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 4,
+            "subject": "Education/Psychology",
+            "question_text": "Generally at the age of school entry stage children knowns vocabulary of about ______ words. பொதுவாக பள்ளிச் செல்லும் வயதில் குழந்தைகள் குறைந்தபட்சமாக ______ வார்த்தைகள் அறிந்திருப்பர்.",
+            "option_a": "10,000 10,000",
+            "option_b": "10 10",
+            "option_c": "1,000 1,000",
+            "option_d": "100 100",
+            "correct_option": ""
+        },
+        {
+            "question_number": 5,
+            "subject": "Education/Psychology",
+            "question_text": "How many concepts in a \"Tiny Blue Square Block\" ? 'சிறிய நீலநிற சதுரக் கட்டை\" - இதில் அடங்கி உள்ள பொதுமைப் பண்புகளின் எண்ணிக்கை :",
+            "option_a": "3 3",
+            "option_b": "2 2",
+            "option_c": "1 1",
+            "option_d": "4 4",
+            "correct_option": ""
+        },
+        {
+            "question_number": 6,
+            "subject": "Education/Psychology",
+            "question_text": "The techniques like \"Case Study\", \"Projects\", \"Think-pair-share\" are the examples of : தனியாள் ஆய்வு, ஆய்வுத்திட்டங்கள், சிந்தித்தல் - இணைத்தல் - பகிர்தல் போன்ற உத்திகள் எவ்வகைக் கற்றலுக்கான உதாரணங்கள்?",
+            "option_a": "Rote learning மனனக் கற்றல்",
+            "option_b": "Active learning செயலுருக் கற்றல்",
+            "option_c": "Passive learning செயலாற்றக் கற்றல்",
+            "option_d": "Meaningless learning பொருளற்றக் கற்றல்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 7,
+            "subject": "Education/Psychology",
+            "question_text": "Which of the following sequence make to learn children easily ? கீழ்க்கண்ட வரிசையில் எந்த தொடரை ஏற்படுத்தினால் குழந்தைகள் எளிதாக கற்றுக் கொள்ள முடியும்?",
+            "option_a": "Sea, Sun, Water, Cloud, Rain கடல், சூரியன், நீர், மேகம், மழை",
+            "option_b": "Sun, Cloud, Sea, Rain, Water சூரியன், மேகம், கடல், மழை, நீர்",
+            "option_c": "Sun, Sea, Cloud, Rain, Water சூரியன், கடல், மேகம், மழை, நீர்",
+            "option_d": "Water, Rain, Cloud, Sea, Sun நீர், மழை, மேகம், கடல், சூரியன்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 8,
+            "subject": "Education/Psychology",
+            "question_text": "'Matter expand on heating' is a generalized concept, like Iron, Gold, Silver and Mercury expand on heating is known as : பொருட்கள் வெப்பத்தால் விரிவடைகின்றன என்ற பொது விதியிலிருந்து இரும்பு, தங்கம், வெள்ளி, பாதரசம் போன்றவை வெப்பத்தால் விரிவடைகின்றன என்பது :",
+            "option_a": "Creative thinking ஆக்கச் சிந்தனை",
+            "option_b": "Convergent thinking விரி சிந்தனை",
+            "option_c": "Inductive method தொகுத்தறி முறை",
+            "option_d": "Deductive method பகுத்தறி முறை",
+            "correct_option": ""
+        },
+        {
+            "question_number": 9,
+            "subject": "Education/Psychology",
+            "question_text": "The concrete operational child can also seriate mentally, an ability is called as: கருத்தியல் செயல்பாட்டு நிலையில் உள்ள குழந்தை மனரீதியாக வரிசைப்படுத்தும் திறனை அடைவது:",
+            "option_a": "Seriation வரிசைப்படுத்துதல்",
+            "option_b": "Transitive inference இடைநிலை அனுமானம்",
+            "option_c": "Conservation பாதுகாத்தல்",
+            "option_d": "Group குழு",
+            "correct_option": ""
+        },
+        {
+            "question_number": 10,
+            "subject": "Education/Psychology",
+            "question_text": "Sir C.V. Raman got the insight about Raman's effect while he was at a board of a ship upon admiring the sea as an example for: சர்.சி.வி இராமனின் ஒளிபற்றிய கோட்பாட்டில் ஒரு கப்பலில் மேல் தளத்தில் கடலைப் பார்த்து கொண்டிருப்பது இதற்கு எடுத்துக்காட்டு :",
+            "option_a": "Preparatory stage ஆயத்த நிலை",
+            "option_b": "Incubation உள் வளர்ச்சி",
+            "option_c": "Illumination விளக்கம் தோன்றுதல்",
+            "option_d": "Verification சரிபார்த்தல்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 11,
+            "subject": "Education/Psychology",
+            "question_text": "A teacher shows 10 apples including 4 green and 6 red apples to the students and asked them to answer \"Are there less red apples or green apples\". Few students immediately respond as \" there are less red apples\". This response indicates the lack of ______ among the pre-operational stage children. ஓர் ஆசிரியர் மாணவர்களிடம் 4 பச்சை மற்றும் 6 சிவப்பு வண்ண ஆப்பிள் என 10 ஆப்பிள்களைக் காண்பித்து அவற்றில் குறைவாக உள்ளவை சிவப்பு ஆப்பிள்களா அல்லது பச்சை ஆப்பிள்களா ? என வினவுகிறார். சில குழந்தைகள் உடனே அவற்றில் குறைந்த சிவப்பு வண்ண ஆப்பிள்கள் உள்ளது என கூறுகின்றனர். இது மனச் செயல்பாட்டுக்கு முந்தைய நிலை குழந்தைகளிடையே ______ இன்மையைக் குறிப்பிடுகிறது.",
+            "option_a": "Conservation பாதுகாத்தல்",
+            "option_b": "Thinking சிந்தனை",
+            "option_c": "Imagination கற்பனை",
+            "option_d": "Hierarchial classification வரிசை கிரம வகைபாடு",
+            "correct_option": ""
+        },
+        {
+            "question_number": 12,
+            "subject": "Education/Psychology",
+            "question_text": "Social development in children is greatly influenced by the ______ குழந்தைகளின் சமூக வளர்ச்சியில் பெருமளவு தாக்கத்தை ஏற்படுத்தக் கூடியது ______",
+            "option_a": "Functioning of school பள்ளி செயல்படும் விதம்",
+            "option_b": "Entertainment agency பொழுதுபோக்கு அமைப்பு",
+            "option_c": "Peer group ஒப்பார் குழு",
+            "option_d": "Social group சமூக குழு",
+            "correct_option": ""
+        },
+        {
+            "question_number": 13,
+            "subject": "Education/Psychology",
+            "question_text": "In which environment the emotions of children is increased by ? எந்த சூழ்நிலையில், குழந்தைகளின் மனவெழுச்சி அதிகமாகிறது?",
+            "option_a": "School பள்ளிக்கூடம்",
+            "option_b": "Family குடும்பம்",
+            "option_c": "Friends Group நண்பர்கள் குழு",
+            "option_d": "Relatives Group உறவினர்கள் குழு",
+            "correct_option": ""
+        },
+        {
+            "question_number": 14,
+            "subject": "Education/Psychology",
+            "question_text": "Some children spend much time in solitary activity than playing because : சில குழந்தைகள் பெரும்பாலான நேரத்தை விளையாடுவதைக் காட்டிலும், தனிமையான செயல்களிலே கழிக்கக் காரணம் :",
+            "option_a": "they want to tell others about their activities தங்களின் செயல்களை மற்றவர்களுக்கு கூற வேண்டும் என்பதற்காக",
+            "option_b": "they are not accepted in groups குழுக்களில் அவர்கள் ஏற்றுக்கொள்ளப்படாததால்",
+            "option_c": "they are unfit for playing விளையாட உடல் தகுதி இல்லாததால்",
+            "option_d": "they hate playing games விளையாட்டை அவர்கள் வெறுப்பதால்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 15,
+            "subject": "Education/Psychology",
+            "question_text": "Once a child acquires a well developed emotional self - reputation, it also acquires a feeling of being in control of there emotional experience. This is known as : ஒரு குழந்தை, நல்ல வளர்ச்சியுற்ற மனவெழுச்சி சுய ஒழுங்குபடுத்துதலை பெறும்பொழுது, தன்னுடைய மனவெழுச்சி அனுபவங்களை கட்டுபடுத்தும் உணர்வை பெறுகிறது. இதனை ______ எனலாம்.",
+            "option_a": "Emotional self - awareness மனவெழுச்சி சுய விழிப்புணர்வு",
+            "option_b": "Emotional self - efficiency மனவெழுச்சி சுய உச்ச செயல்திறன்",
+            "option_c": "Emotional self-effectiveness மனவெழுச்சி சுய விளைவு தகுதி",
+            "option_d": "Emotional self - efficacy மனவெழுச்சி சுய இயக்க ஆற்றல்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 16,
+            "subject": "Education/Psychology",
+            "question_text": "The theory which recognizes the infants emotional tie to the care giver as an evolved response that promotes survival. வாழ்வை தூண்டும் பரிணாம துலங்கலாக குழந்தையின் மனவெழுச்சி பராமரிப்பவரோடு ஏற்படும் பிணைப்பை அங்கீகரிக்கும் கொள்கை :",
+            "option_a": "Erikson's psychosocial theory எரிக்சனின் உளச் சமூகக் கொள்கை",
+            "option_b": "Freud's psychoanalytic theory ஃப்ராய்டுவின் உள பகுப்புக் கொள்கை",
+            "option_c": "Bowlby's ethological theory பவுள்பையின் நெறிமுறை கொள்கை",
+            "option_d": "Bandura's social learning theory பண்டியுராவின் சமூக கற்றல் கொள்கை",
+            "correct_option": ""
+        },
+        {
+            "question_number": 17,
+            "subject": "Education/Psychology",
+            "question_text": "Which involves building Schemas through direct interaction with the environment ? கீழ்க்கண்டவற்றுள் சூழ்நிலை இடை வினையாற்றலின் மூலம் ஸ்கீமாக்கள் உருவாக்கப்படுவது எதனுடன் தொடர்புடையது?",
+            "option_a": "Accomodation இணங்குதல்",
+            "option_b": "Assimilation உட்கிரகித்தல்",
+            "option_c": "Adaptation பொருந்துதல்",
+            "option_d": "Equilibration சமநிலைப்படுத்தல்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 18,
+            "subject": "Education/Psychology",
+            "question_text": "\" Personality development is incomplete without the analysis and development of moral values.\" Who said this? \"தார்மீக மதிப்புகளின் பகுப்பாய்வு மற்றும் வளர்ச்சி இல்லாமல் ஆளுமை வளர்ச்சி முழுமை அடையாது\" என்று கூறியவர் யார்?",
+            "option_a": "Bertrand Russell ஃபெர்டரன்ட ரஜல்",
+            "option_b": "Piaget பியாஜே",
+            "option_c": "John Dewey ஜான் டூயி",
+            "option_d": "John Frederick Herbert ஜான் பெடரிக் ஹர்பர்ட்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 19,
+            "subject": "Education/Psychology",
+            "question_text": "Anitha was 7 years old when her parents died due to untimely medical help. What kind of ideals would it be if Anitha then took the pledge to study and become a doctor ? தக்க நேரத்தில் மருத்துவ உதவி கிடைக்காததால், தன் பெற்றோரை அனிதா இழந்த போது அவளின் வயது 7, அப்பொழுதே அனிதா தான் படித்து ஒரு மருத்துவராக வரவேண்டும் என்ற உறுதிமொழியை எடுத்துக்கொண்டார். இது எவ்வகையான லட்சியம் ?",
+            "option_a": "Short-term Ideal குறுகிய கால லட்சியம்",
+            "option_b": "Interim - Ideal இடைக் கால லட்சியம்",
+            "option_c": "Long-term Ideal நீண்ட கால லட்சியம்",
+            "option_d": "Life time Ideal வாழ்வின் லட்சியம்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 20,
+            "subject": "Education/Psychology",
+            "question_text": "Assertion: In a new born child, neurons are not covered by Myelin sheath and formed as the child grows. After the growth of Myelin sheath the motor activities, which were out of control of the child are under control now. Reason: Once the formation of Myelin sheath is over, the sensory nerves and motor nerves start functioning. கூற்று:- பிறந்த குழந்தையின் நியூரான்களில் மைலின் ஷீத் இருப்பதில்லை. குழந்தை வளர வளர மைலின் ஷீத் உருவாகிறது. அப்போது கட்டுப்பாடு இல்லாமல் இருந்த குழந்தையின் உடல் இயக்கம் குழந்தையின் கட்டுப்பாட்டுக்குள் வருகிறது. காரணம் :- நியூரானின் மையலின் ஷீத் வளர்ச்சியடைந்த பின்னரே குழந்தையின் புலன் உணர்ச்சி நரம்புகளும், இயக்க நரம்புகளும் செயல்படத் தொடங்குகின்றன.",
+            "option_a": "Both Assertion and Reason are true கூற்று மற்றும் காரணம் இரண்டும் சரி",
+            "option_b": "Both Assertion and Reason are false கூற்று மற்றும் காரணம் இரண்டும் தவறு",
+            "option_c": "Assertion is true and Reason is false கூற்று சரி மற்றும் காரணம் தவறு",
+            "option_d": "Assertion is false and Reason is true கூற்று தவறு மற்றும் காரணம் சரி",
+            "correct_option": ""
+        },
+        {
+            "question_number": 21,
+            "subject": "Education/Psychology",
+            "question_text": "In which one of the Piaget's moral developmental stages, through pain and pleasure the behaviour change is regulated ? பியாஜேவின் கீழ்காணும் எந்த ஒழுக்க வளர்ச்சி படிநிலையில், துன்பம் மற்றும் இன்பம் மூலம் நடத்தை மாற்றமானது ஒழுங்குபடுத்தப்படுகிறது?",
+            "option_a": "Stage 1 (1 - 5 years) நிலை 1 (1–5 ஆண்டுகள்)",
+            "option_b": "Stage 2 (5 - 8 years) நிலை 2 (5–8 ஆண்டுகள்)",
+            "option_c": "Stage 3 (9 - 13 years) நிலை 3 (9 - 13 ஆண்டுகள்)",
+            "option_d": "Stage 4 (13 - 18 years) நிலை 4 (13-18 ஆண்டுகள்)",
+            "correct_option": ""
+        },
+        {
+            "question_number": 22,
+            "subject": "Education/Psychology",
+            "question_text": "When asked about the classification of star fish, a student of second standard replied that it belonged to fish. What type of generalization do you find here? ஒரு இரண்டாம் வகுப்பு குழந்தையிடம் நட்சத்திர மீனானது எந்த வகையில் வரும் என கேட்டால், அக்குழந்தை மீன் வகை என்று கூறுகிறது எனில், எந்த வகையான பொதுமைபடுத்துதல் என கண்டறிக ?",
+            "option_a": "Extended generalization மிகைபட பொதுமைப்படுத்துதல்",
+            "option_b": "Deficit generalization குறைபட பொதுமைப்படுத்துதல்",
+            "option_c": "Complete generalization முழுமைபட பொதுமைப்படுத்துதல்",
+            "option_d": "Exaggerated generalization நிறைபட பொதுமைப்படுத்துதல்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 23,
+            "subject": "Education/Psychology",
+            "question_text": "Find the correct answer. Assertion: Asian children less often call on social comparisons to promote their own self-esteem. Reason: Asian culture heritage reflects social harmony. சரியான விடையைக் கண்டுபிடிக்கவும்: கூற்று : ஆசிய குழந்தைகள் தங்களின் சொந்த சுய மதிப்பை உயர்த்துவதற்கு மிகவும் குறைவாக சமூக ஒப்பு நோக்கு செய்கிறார்கள். காரணம் : ஆசிய கலாச்சார மரபு, சமூக நல்லிணக்கத்தை பிரதிபலிக்கிறது.",
+            "option_a": "Assertion is correct, Reason is wrong கூற்று சரி, காரணம் தவறு",
+            "option_b": "Assertion is wrong and Reason is correct கூற்று தவறு, காரணம் சரி",
+            "option_c": "Both Assertion and Reason are correct கூற்று மற்றும் காரணம் இரண்டும் சரி",
+            "option_d": "Both Assertion and Reason are wrong கூற்று மற்றும் காரணம் இரண்டும் தவறு",
+            "correct_option": ""
+        },
+        {
+            "question_number": 24,
+            "subject": "Education/Psychology",
+            "question_text": "Which activity comes under the Sensitivity Training Strategy ? உணர்வுபூர்வமான பயிற்சி உத்தி - பயன்படுத்தப்படும் செயல்பாடு ______",
+            "option_a": "excursion கல்வி சுற்றுலா",
+            "option_b": "discussion கலந்துரையாடல்",
+            "option_c": "debate விவாதம்",
+            "option_d": "exhibition கண்காட்சி",
+            "correct_option": ""
+        },
+        {
+            "question_number": 25,
+            "subject": "Education/Psychology",
+            "question_text": "Great teachers are not afraid to ask other teachers what they are doing in their classroom denotes teacher is a ______ வகுப்பறையில் எவ்வாறு செயலாற்றுகிறார்கள் என்று பிற ஆசிரியர்களிடத்தில் கேட்பதற்கு சிறந்த ஆசிரியர்கள் பயப்படுவது இல்லை. இச்செயல் எதை குறிக்கிறது?",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "correct_option": ""
+        },
+        {
+            "question_number": 26,
+            "subject": "Education",
+            "question_text": "To develop creativity among students a teacher should provide activities like : (a) Practice book back exercises (b) Asking probing questions (c) Enhance library usage (d) Encourage to participates in competition ஓர் ஆசிரியராகிய நீங்கள் மாணவர்களிடம் ஆக்கத்திறனை வளர்க்க மேற்கொள்ள வேண்டிய செயல்பாடுகள்: (a) பாடப்புத்தக வினா விடைகளில் பயிற்சி அளித்தல் (b) கிளர் வினாக்கள் கேட்டல் (c) நூலகப் பயன்பாட்டை மேம்படுத்துதல் (d) போட்டிகளில் பங்கேற்கச் செய்தல்",
+            "option_a": "(a), (c) and (d) (a), (c) மற்றும் (d)",
+            "option_b": "(a), (b) and (d) (a), (b) மற்றும் (d)",
+            "option_c": "(a), (b) and (c) (a), (b) மற்றும் (c)",
+            "option_d": "(b), (c) and (d) (b), (c) மற்றும் (d)",
+            "correct_option": "D"
+        },
+        {
+            "question_number": 27,
+            "subject": "General Knowledge",
+            "question_text": "Now-a-day's learning opportunities are more through social media. Our society expects the students to view the aspects from it. இன்றைய கால கட்டத்தில் சமூக ஊடகங்களின் வாயிலாகக் கற்கும் வாய்ப்பு அதிகம் உள்ளது. அவற்றில் வரும் கருத்துகளை மாணவர்கள் எந்த கண்ணோட்டத்தில் பார்க்க வேண்டும் என சமூகம் விரும்புகிறது?",
+            "option_a": "Negative concepts எதிர்மறையான கருத்துகள்",
+            "option_b": "Positive concepts நேர்மறையான கருத்துகள்",
+            "option_c": "Both negative and positive concepts நேர்மறை மற்றும் எதிர்மறையான கருத்துகள்",
+            "option_d": "Entertainment concepts பொழுதுபோக்குக்கான கருத்துகள்",
+            "correct_option": "B"
+        },
+        {
+            "question_number": 28,
+            "subject": "Education",
+            "question_text": "A good teacher encourage students to during the class. வகுப்பறையில் ஒரு நல்ல ஆசிரியர் ஊக்குவிக்க வேண்டும்.",
+            "option_a": "Ask question to clarify their doubt now and then அவ்வப்போது கேள்விகள் கேட்டு சந்தேகத்தை தீர்த்துக் கொள்வதை",
+            "option_b": "Gossip unwanted thing தேவையற்றதைக் குறித்து புறம் பேசுதல்",
+            "option_c": "Converse with themselves மாணவர்கள் தங்களுக்குள் பேசிக் கொள்ளல்",
+            "option_d": "Ask them to note down their doubts to clarify at the end of class மாணவர்களுக்கு எழும் சந்தேகங்களை குறித்து வைத்துக் கொண்டு வகுப்பின் இறுதியில் கேட்கச் செய்தல்",
+            "correct_option": "A"
+        },
+        {
+            "question_number": 29,
+            "subject": "Psychology",
+            "question_text": "According to McDougall the three aspects of instinctive behaviour domains are : மக் டூகலின் மூன்று உள்ளார்ந்த நடத்தைக்கூறின் களங்கள் :",
+            "option_a": "Stimulation, Cognition, Conation தூண்டுதல்சார், அறிவுசார், செயல்சார்",
+            "option_b": "Conation, Discrimination, Affection செயல்சார், பாகுபாடுசார், உளம்சார்",
+            "option_c": "Affection, Cognition, Creation உளம்சார், அறிவுசார், ஆக்கம்சார்",
+            "option_d": "Cognition, Affection, conation அறிவுசார், உளம்சார், செயல்சார்",
+            "correct_option": "D"
+        },
+        {
+            "question_number": 30,
+            "subject": "Computer Science",
+            "question_text": "Find out the correct option by matching the major components of multimedia with its uses : (a) Text - To add moving pictures (b) Animation - To explain the concepts (c) Audio - To add live movements (d) Video - To show unnatural things as live (e) Graphics - To make sentences பல்ஊடகப் பொருள்களை அவற்றின் பயன்களுடன் பொருத்துக: (a) பாடப்பதிப்பு - நகரும் படங்களை இணைத்தல்",
+            "option_a": "(a), (b), (c), (d), (e)",
+            "option_b": "(e), (d), (c), (b), (a)",
+            "option_c": "(d), (c), (b), (e), (a)",
+            "option_d": "(c), (b), (d), (e), (a)",
+            "correct_option": ""
+        },
+        {
+            "question_number": 31,
+            "subject": "General Knowledge",
+            "question_text": "\"பஞ்சாப்\" மாநிலத்தில் அறுவடைத் திருநாள் பெறும் பெயர் :",
+            "option_a": "மகரசங்கராந்தி",
+            "option_b": "லோரி",
+            "option_c": "உத்தராயன்",
+            "option_d": "பொங்கல்",
+            "correct_option": "B"
+        },
+        {
+            "question_number": 32,
+            "subject": "Tamil Literature",
+            "question_text": "'வெற்றி வேற்கை\"யின் ஆசிரியர் :",
+            "option_a": "அதிவீர ராம பாண்டியர்",
+            "option_b": "காக்கைப் பாடினியார்",
+            "option_c": "சுத்தானந்தப் பாரதியார்",
+            "option_d": "நச்செள்ளையார்",
+            "correct_option": "A"
+        },
+        {
+            "question_number": 33,
+            "subject": "General Knowledge",
+            "question_text": "சிறந்த நூலகர்களுக்கு வழங்கப்படும் விருது :",
+            "option_a": "அண்ணா விருது",
+            "option_b": "டாக்டர் ச.இரா. அரங்கநாதன் விருது",
+            "option_c": "பாரதிதாசன் விருது",
+            "option_d": "நேரு விருது",
+            "correct_option": "B"
+        },
+        {
+            "question_number": 34,
+            "subject": "Tamil Literature",
+            "question_text": "காளமேகப் புலவரின் இயற்பெயர் :",
+            "option_a": "சுப்பிரமணியனார்",
+            "option_b": "தேனரசன்",
+            "option_c": "துரை மாணிக்கம்",
+            "option_d": "வரதன்",
+            "correct_option": "D"
+        },
+        {
+            "question_number": 35,
+            "subject": "Tamil Grammar",
+            "question_text": "தாழ்பூந்துறை-யில் பயின்று வரும் இலக்கணக் குறிப்பு :",
+            "option_a": "பண்புத் தொகை",
+            "option_b": "வேற்றுமைத் தொகை",
+            "option_c": "உவமைத் தொகை",
+            "option_d": "வினைத் தொகை",
+            "correct_option": "D"
+        },
+        {
+            "question_number": 36,
+            "subject": "Tamil Language",
+            "question_text": "இன்று நம் திறன் பேசியில் உள்ள Navigation என்ற ஆங்கிலச் சொல் என்ற தமிழ்ச்சொல்லின் திரிபு ஆகும்.",
+            "option_a": "நாவாய்",
+            "option_b": "நங்கூரம்",
+            "option_c": "கலங்கரை விளக்கம்",
+            "option_d": "தோணி",
+            "correct_option": "A"
+        },
+        {
+            "question_number": 37,
+            "subject": "Social Studies",
+            "question_text": "கூற்று - 1 : ஊராட்சி, நகராட்சி, சட்டமன்றம், நாடாளுமன்றம் போன்றவற்றில் எல்லா வகுப்பினருக்கும் உரிய பிரதிநிதித்துவம் வழங்கப்பட வேண்டும் என்று தந்தை பெரியார் கூறினார். கூற்று-2 : திராவிட மகாஜன சங்கம் என்னும் அமைப்பைத் தோற்றுவித்தவர் அயோத்திதாசர்.",
+            "option_a": "கூற்று 1, 2 சரி",
+            "option_b": "கூற்று 1 சரி, 2 தவறு",
+            "option_c": "கூற்று 2 சரி, 1 தவறு",
+            "option_d": "கூற்று 1, 2 தவறு",
+            "correct_option": "A"
+        },
+        {
+            "question_number": 38,
+            "subject": "Tamil Literature",
+            "question_text": "அறம் எனப்படுவது யாதெனக் கேட்பின் மறவாது இது கேள் ! - வரிகள் இடம்பெற்றுள்ள நூல்:",
+            "option_a": "திருக்குறள்",
+            "option_b": "மணிமேகலை",
+            "option_c": "புறநானூறு",
+            "option_d": "சிலப்பதிகாரம்",
+            "correct_option": "B"
+        },
+        {
+            "question_number": 39,
+            "subject": "Tamil Grammar",
+            "question_text": "சரியாக பொருந்தியுள்ளது எது ? எழுத்து பிறப்பு (a) ய் - நாக்கின் நுனிப்பகுதி - மேல்வாயின் அடிப்பகுதி (b) ள் - கீழ் வாய், நாக்கின் ஓரம் (c) த் - மேல்வாய்ப்பல்லின் அடிப்பகுதி, நாக்கின் நுனி (d) ழ் - மேல்வாய் - நாக்கின் அடிப்பகுதி",
+            "option_a": "(a)",
+            "option_b": "(b)",
+            "option_c": "(c)",
+            "option_d": "(d)",
+            "correct_option": "C"
+        },
+        {
+            "question_number": 40,
+            "subject": "Tamil Grammar",
+            "question_text": "வளையல், மரங்கொத்தி இவை எவ்வகைப் பெயர்?",
+            "option_a": "காரண சிறப்புப் பெயர்",
+            "option_b": "காரண பொதுப் பெயர்",
+            "option_c": "இடுகுறிப் பெயர்",
+            "option_d": "காரணப் பெயர்",
+            "correct_option": "D"
+        },
+        {
+            "question_number": 41,
+            "subject": "English Language",
+            "question_text": "சரியான இணையைத் தெரிவு செய்க : (i) Myth - தொன்மம் (ii) Thesis – (iii) Epic literature – (iv) Tempest-சுழல்காற்று",
+            "option_a": "(iii) மற்றும் (iv)",
+            "option_b": "(i) மற்றும் (ii)",
+            "option_c": "(iii) மட்டும்",
+            "option_d": "(i) மற்றும் (iii)",
+            "correct_option": ""
+        },
+        {
+            "question_number": 42,
+            "subject": "Tamil Language",
+            "question_text": "அழல் கதிர் என்பதன் பொருள் :",
+            "option_a": "சுடுகின்ற கதிர்",
+            "option_b": "கதிரவன்",
+            "option_c": "குளிர்ந்த கதிர்",
+            "option_d": "பனி ஒலி",
+            "correct_option": "B"
+        },
+        {
+            "question_number": 43,
+            "subject": "General Knowledge",
+            "question_text": "ஹென்றி போர்ட் எந்த ஆண்டில் மோட்டார் வண்டி கண்டுபிடித்தார்?",
+            "option_a": "1893",
+            "option_b": "1938",
+            "option_c": "1986",
+            "option_d": "1983",
+            "correct_option": ""
+        },
+        {
+            "question_number": 44,
+            "subject": "Tamil Grammar",
+            "question_text": "பத்து + இரண்டு - சொற்களைச் சேர்த்து எழுத கிடைப்பது :",
+            "option_a": "பன்னிரெண்டு",
+            "option_b": "பன்னெண்டு",
+            "option_c": "பன்னிரண்டு",
+            "option_d": "பன்னண்டு",
+            "correct_option": "C"
+        },
+        {
+            "question_number": 45,
+            "subject": "Tamil Grammar",
+            "question_text": "'சாவி' என்னும் சொல் ஒரு",
+            "option_a": "இயற்சொல்",
+            "option_b": "திரிசொல்",
+            "option_c": "திசைச்சொல்",
+            "option_d": "வடச்சொல்",
+            "correct_option": "C"
+        },
+        {
+            "question_number": 46,
+            "subject": "Tamil Culture",
+            "question_text": "'தேவதுந்துபி' என்றழைக்கப்படும் இசைக் கருவி எது?",
+            "option_a": "துடி",
+            "option_b": "பறை",
+            "option_c": "உறுமி",
+            "option_d": "நையாண்டி",
+            "correct_option": "B"
+        },
+        {
+            "question_number": 47,
+            "subject": "Tamil Literature",
+            "question_text": "பொதுவர்கள் பொலிஉறப் போர் அடித்திடும் நிலப்பகுதி :",
+            "option_a": "குறிஞ்சி",
+            "option_b": "நெய்தல்",
+            "option_c": "முல்லை",
+            "option_d": "பாலை",
+            "correct_option": "C"
+        },
+        {
+            "question_number": 48,
+            "subject": "Tamil Language",
+            "question_text": "இரு பொருள் தரும் சொல்லைத் தேர்ந்தெடுக்கவும்:",
+            "option_a": "பார்",
+            "option_b": "எள்",
+            "option_c": "எல்",
+            "option_d": "கண்",
+            "correct_option": "B"
+        },
+        {
+            "question_number": 49,
+            "subject": "Tamil Literature",
+            "question_text": "நெய்தல் திணையின் மக்கள் :",
+            "option_a": "பரதவர், பரத்தியர்",
+            "option_b": "குறவன், குறத்தி",
+            "option_c": "உழவன், உழத்தி",
+            "option_d": "ஆயர், ஆய்ச்சியர்",
+            "correct_option": "A"
+        },
+        {
+            "question_number": 50,
+            "subject": "Tamil Language",
+            "question_text": "சோளக்கொல்லைப் பொம்மை' என்பது :",
+            "option_a": "",
+            "option_b": "",
+            "option_c": "",
+            "option_d": "",
+            "correct_option": ""
+        },
+        {
+            "question_number": 51,
+            "subject": "Tamil",
+            "question_text": "'வரைந்தாள்' - என்ற வினைமுற்றுச் சொல்லை வினையாலணையும் பெயராக மாற்றுக:",
+            "option_a": "வரைந்து",
+            "option_b": "வரைதல்",
+            "option_c": "வரைந்த",
+            "option_d": "வரைந்தவர்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 52,
+            "subject": "Tamil",
+            "question_text": "'மனோன்மணிக் கண்ணி' என்னும் நூலை இயற்றியவர் :",
+            "option_a": "தாயுமானவர்",
+            "option_b": "இராமலிங்க அடிகள்",
+            "option_c": "குணங்குடி மஸ்தான் சாகிபு",
+            "option_d": "உமறுப் புலவர்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 53,
+            "subject": "Tamil",
+            "question_text": "திருநெல்வேலிக்கு அருகில் அகழாய்வு செய்யப்பட்ட இடம் :",
+            "option_a": "கொடு மணல்",
+            "option_b": "ஆதிச்ச நல்லூர்",
+            "option_c": "அரிக்கமேடு",
+            "option_d": "கீழடி",
+            "correct_option": ""
+        },
+        {
+            "question_number": 54,
+            "subject": "Tamil",
+            "question_text": "குமரன் பாடினான்-கூற்று 1: இத்தொடரில் குமரன் என்பது எழுவாய் பாடினான் என்பது வினைப்பயனிலை கூற்று 2: இத்தொடரில் குமரன் என்பது எழுவாய் பாடினான் என்பது பயனிலை",
+            "option_a": "கூற்று 1, 2 சரியானது",
+            "option_b": "கூற்று 1 தவறு, 2 சரி",
+            "option_c": "கூற்று 1 சரி, 2 தவறு",
+            "option_d": "கூற்று 1, 2 தவறு",
+            "correct_option": ""
+        },
+        {
+            "question_number": 55,
+            "subject": "Tamil",
+            "question_text": "சிறுகதை மன்னன் என்று போற்றப்படும் புதுமைப் பித்தனின் இயற்பெயர் :",
+            "option_a": "திரு.வி. கலியாண சுந்தரனார்",
+            "option_b": "பட்டுக்கோட்டை கலியாண சுந்தரனார்",
+            "option_c": "விருத்தாசலம்",
+            "option_d": "கண்ணதாசன்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 56,
+            "subject": "Tamil",
+            "question_text": "ஆரியபட்டர், பாஸ்கரர் இவர்கள் இருவரும் இத்துறையில் சிறந்து விளங்கினர்.",
+            "option_a": "வானவியல், கணிதம்",
+            "option_b": "பொருளியல், வணிகம்",
+            "option_c": "ஆன்மீகம், தத்துவம்",
+            "option_d": "சட்டம், நீதி",
+            "correct_option": ""
+        },
+        {
+            "question_number": 57,
+            "subject": "Tamil",
+            "question_text": "'தமிழ் மூவாயிரம்' என்று அழைக்கப்படும் நூல்:",
+            "option_a": "திருமந்திரம்",
+            "option_b": "திருக்குறள்",
+            "option_c": "தேவாரம்",
+            "option_d": "திருவாசகம்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 58,
+            "subject": "Tamil",
+            "question_text": "'பாரினில்' என்னும் சொல்லைப் பிரித்து எழுதக் கிடைப்பது :",
+            "option_a": "பாரி + எனில்",
+            "option_b": "பார் + எனில்",
+            "option_c": "பா + எனில்",
+            "option_d": "பார் + இல்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 59,
+            "subject": "Tamil",
+            "question_text": "அமுதசுரபி என்ற அட்சய பாத்திரம் நாளில் கோமுகி பொய்கையில் தோன்றும்.",
+            "option_a": "சித்திரைத் திங்கள் முழு நிலவு",
+            "option_b": "தைத் திங்கள் முழு நிலவு",
+            "option_c": "வைகாசித் திங்கள் முழு நிலவு",
+            "option_d": "கார்த்திகைத் திங்கள் முழு நிலவு",
+            "correct_option": ""
+        },
+        {
+            "question_number": 60,
+            "subject": "Tamil",
+            "question_text": "ஒரு தொடரில் யார், எவர், எது, எவை என்னும் வினாக்களுக்கு விடையாக வருவது :",
+            "option_a": "பயனிலை",
+            "option_b": "எழுவாய்",
+            "option_c": "செயபடுபொருள்",
+            "option_d": "வினைமுற்று",
+            "correct_option": ""
+        },
+        {
+            "question_number": 61,
+            "subject": "English",
+            "question_text": "Fill the sentence with the correct phrase. The rains came and poured",
+            "option_a": "to soak up the earth",
+            "option_b": "to soak on the earth",
+            "option_c": "to soak in the earth",
+            "option_d": "to soak off the earth",
+            "correct_option": ""
+        },
+        {
+            "question_number": 62,
+            "subject": "English",
+            "question_text": "The stress falls in the syllable of the word \"ministration\".",
+            "option_a": "ultimate",
+            "option_b": "penultimate",
+            "option_c": "first",
+            "option_d": "second",
+            "correct_option": ""
+        },
+        {
+            "question_number": 63,
+            "subject": "English",
+            "question_text": "When was the Nilgiris Mountain Railway built by British ?",
+            "option_a": "1908",
+            "option_b": "1905",
+            "option_c": "1906",
+            "option_d": "1909",
+            "correct_option": ""
+        },
+        {
+            "question_number": 64,
+            "subject": "English",
+            "question_text": "Match the following:(a) Trees stretch their leafy branches towards the sun (i) Rain(b) Branches are full of new green leaves (ii) Autumn(c) Trees absorb water and look green (iii) Spring(d) Trees shed their leaves (iv) Summer",
+            "option_a": "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
+            "option_b": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+            "option_c": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+            "option_d": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+            "correct_option": ""
+        },
+        {
+            "question_number": 65,
+            "subject": "English",
+            "question_text": "Find out phonetically odd one :",
+            "option_a": "proud",
+            "option_b": "crowd",
+            "option_c": "loud",
+            "option_d": "flood",
+            "correct_option": ""
+        },
+        {
+            "question_number": 66,
+            "subject": "English",
+            "question_text": "Match the following:(a) a cupful of (i) silver(b) a bagful of (ii) coffee(c) a spoonful of (iii) money(d) a pocketful of (iv) sugar",
+            "option_a": "(a)-(i), (b)-(iv), (c)-(ii), (d)-(iii)",
+            "option_b": "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+            "option_c": "(a)-(i), (b)-(iv), (c)-(iii), (d)-(ii)",
+            "option_d": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+            "correct_option": ""
+        },
+        {
+            "question_number": 67,
+            "subject": "English",
+            "question_text": "Space suits Protect us from",
+            "option_a": "death",
+            "option_b": "heat and cold",
+            "option_c": "danger",
+            "option_d": "the climate",
+            "correct_option": ""
+        },
+        {
+            "question_number": 68,
+            "subject": "English",
+            "question_text": "Pick out the correct rhyming words from the options given below for the given stanza. \"Summer comes in a blaze of heat with sunny smiles\".",
+            "option_a": "Summer, Smiles",
+            "option_b": "Comes, Smiles",
+            "option_c": "Heat, Comes",
+            "option_d": "Heat, Smiles",
+            "correct_option": ""
+        },
+        {
+            "question_number": 69,
+            "subject": "English",
+            "question_text": "Iniya is very tall for her age. 'Age' is identified here in this sentence as :",
+            "option_a": "Proper noun",
+            "option_b": "Collective noun",
+            "option_c": "Possessive noun",
+            "option_d": "Abstract noun",
+            "correct_option": ""
+        },
+        {
+            "question_number": 70,
+            "subject": "English",
+            "question_text": "'Wandering Singers' poem is written by :",
+            "option_a": "Kamala Das",
+            "option_b": "Rabindaranath Tagore",
+            "option_c": "Sarojini Naidu",
+            "option_d": "R.K. Ramanujam",
+            "correct_option": ""
+        },
+        {
+            "question_number": 71,
+            "subject": "English",
+            "question_text": "The Phrase 'never-say-die spirit' means:",
+            "option_a": "Let down",
+            "option_b": "Stop trying",
+            "option_c": "Don't stop trying",
+            "option_d": "Disappoint",
+            "correct_option": ""
+        },
+        {
+            "question_number": 72,
+            "subject": "English",
+            "question_text": "The sound made by an elephant is called",
+            "option_a": "Chatter",
+            "option_b": "Talk",
+            "option_c": "Trumpet",
+            "option_d": "Howl",
+            "correct_option": ""
+        },
+        {
+            "question_number": 73,
+            "subject": "English",
+            "question_text": "Find the suitable collective noun:",
+            "option_a": "choir",
+            "option_b": "swarm",
+            "option_c": "herd",
+            "option_d": "flock",
+            "correct_option": ""
+        },
+        {
+            "question_number": 74,
+            "subject": "English",
+            "question_text": "Coin a new compound word from the option : Light",
+            "option_a": "coat",
+            "option_b": "board",
+            "option_c": "house",
+            "option_d": "man",
+            "correct_option": ""
+        },
+        {
+            "question_number": 75,
+            "subject": "English",
+            "question_text": "Arrange the seasons in a sequential order of the calendar.",
+            "option_a": "summer, winter, rainy, spring, autumn",
+            "option_b": "spring, summer, autumn, rainy, winter",
+            "option_c": "winter, spring, summer, rainy, autumn",
+            "option_d": "summer, rainy, winter, autumn, spring",
+            "correct_option": ""
+        },
+        {
+            "question_number": 76,
+            "subject": "English",
+            "question_text": "Fill in the blank with an appropriate concord. Mr. and Mrs. Prem a white car.",
+            "option_a": "has",
+            "option_b": "is",
+            "option_c": "have",
+            "option_d": "do",
+            "correct_option": ""
+        },
+        {
+            "question_number": 77,
+            "subject": "English",
+            "question_text": "An announcement is given \"It is quarter to one so break for lunch\". Here quarter to one is :",
+            "option_a": "1.15 pm",
+            "option_b": "12.45 pm",
+            "option_c": "",
+            "option_d": "",
+            "correct_option": ""
+        },
+        {
+            "question_number": 78,
+            "subject": "English",
+            "question_text": "Fill up the blanks with correct prepositions. Sam wrote a poem ____ 4.30, ____ the evening ____ Monday ____ 15 of August ____ 2018",
+            "option_a": "in, at, by, on, in",
+            "option_b": "at, in, on, on, in",
+            "option_c": "at, in, in, in, on",
+            "option_d": "at, in, on, in, in",
+            "correct_option": ""
+        },
+        {
+            "question_number": 79,
+            "subject": "English",
+            "question_text": "Two or more words which have same ending sounds are :",
+            "option_a": "Sight words",
+            "option_b": "Rhyming words",
+            "option_c": "Cross words",
+            "option_d": "Compound words",
+            "correct_option": ""
+        },
+        {
+            "question_number": 80,
+            "subject": "English",
+            "question_text": "Fill in the blank with appropriate concord. Either he or I ____ mistaken.",
+            "option_a": "is",
+            "option_b": "were",
+            "option_c": "am",
+            "option_d": "are",
+            "correct_option": ""
+        },
+        {
+            "question_number": 81,
+            "subject": "General Knowledge",
+            "question_text": "Match the planet with its feature. (a) Mars (i) red planet (b) Saturn (ii) red storm (c) Jupiter (iii) blue ice giant (d) Neptune (iv) ring and moons",
+            "option_a": "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+            "option_b": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+            "option_c": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+            "option_d": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+            "correct_option": ""
+        },
+        {
+            "question_number": 82,
+            "subject": "English",
+            "question_text": "State which of the following is not a simple sentence ?",
+            "option_a": "Whatever you do, do well.",
+            "option_b": "Hearing that news, he shocked.",
+            "option_c": "His courage and knowledge won him honour.",
+            "option_d": "The man, being very hungry, ate too much.",
+            "correct_option": ""
+        },
+        {
+            "question_number": 83,
+            "subject": "English",
+            "question_text": "Kumar is an idle person. Rewrite the sentence using idiom with changing the meaning of the sentence.",
+            "option_a": "Kumar is a coach potato",
+            "option_b": "Kumar is a smark cookie",
+            "option_c": "Kumar is a big cheese",
+            "option_d": "Kumar is a couch potato",
+            "correct_option": ""
+        },
+        {
+            "question_number": 84,
+            "subject": "English",
+            "question_text": "I have been in the USA. What is a tense used in this sentence?",
+            "option_a": "Simple Present",
+            "option_b": "Present Perfect",
+            "option_c": "Present Continuous",
+            "option_d": "Present Perfect Continuous",
+            "correct_option": ""
+        },
+        {
+            "question_number": 85,
+            "subject": "English",
+            "question_text": "We will be sleeping in terrace. In this sentence the verb \"will be sleeping\" is used as :",
+            "option_a": "Transitive Verb",
+            "option_b": "Intransitive Verb",
+            "option_c": "Ditransitive Verb",
+            "option_d": "Regular Verb",
+            "correct_option": ""
+        },
+        {
+            "question_number": 86,
+            "subject": "English",
+            "question_text": "Find the type of syllabification for the word 'tongue'.",
+            "option_a": "Monosyllabic",
+            "option_b": "Disyllabic",
+            "option_c": "Trisyllabic",
+            "option_d": "Tetrasyllabic",
+            "correct_option": ""
+        },
+        {
+            "question_number": 87,
+            "subject": "English",
+            "question_text": "Write the meaning of the Idiom at sixes and sevens.",
+            "option_a": "Blissfully happy",
+            "option_b": "Completely Perfect",
+            "option_c": "Moving Very Slowly",
+            "option_d": "Confused or in a state of disorder",
+            "correct_option": ""
+        },
+        {
+            "question_number": 88,
+            "subject": "English",
+            "question_text": "The kitchen is ____ small ____ work in.",
+            "option_a": "to, too",
+            "option_b": "two, too",
+            "option_c": "too, two",
+            "option_d": "too, to",
+            "correct_option": ""
+        },
+        {
+            "question_number": 89,
+            "subject": "English",
+            "question_text": "Give a suitable synonym for 'Shakers'.",
+            "option_a": "A person who shakes one",
+            "option_b": "A person who is unsteady",
+            "option_c": "A container used for shaking things",
+            "option_d": "A physical condition of one's body",
+            "correct_option": ""
+        },
+        {
+            "question_number": 90,
+            "subject": "English",
+            "question_text": "Choose the correct plural form of the word 'mystery' :",
+            "option_a": "mysterys",
+            "option_b": "mysteryes",
+            "option_c": "mysterives",
+            "option_d": "mysteries",
+            "correct_option": ""
+        },
+        {
+            "question_number": 91,
+            "subject": "Mathematics",
+            "question_text": "If 3/4 of a laddu weighs 180 grams. What will be the weight of 4/5 th of the same laddu.",
+            "option_a": "192 g",
+            "option_b": "200 g",
+            "option_c": "208 g",
+            "option_d": "216 g",
+            "correct_option": ""
+        },
+        {
+            "question_number": 92,
+            "subject": "Mathematics",
+            "question_text": "Which of the following is not a perfect square and perfect cube?",
+            "option_a": "64",
+            "option_b": "81",
+            "option_c": "729",
+            "option_d": "4096",
+            "correct_option": ""
+        },
+        {
+            "question_number": 93,
+            "subject": "Mathematics",
+            "question_text": "Ravi has 3 rice bags which has 100 kg, 80 kg and 60 kg. He wants to measure all of them exactly and quickly. What capacity of vessel he must have?",
+            "option_a": "25 kg",
+            "option_b": "15 kg",
+            "option_c": "20 kg",
+            "option_d": "18 kg",
+            "correct_option": ""
+        },
+        {
+            "question_number": 94,
+            "subject": "Mathematics",
+            "question_text": "The dimensions of a sweet box are 22 cm x 18 cm x 10 cm. How many such boxes can be packed in a carton of dimensions 1 m x 88 cm x 63 cm.",
+            "option_a": "120",
+            "option_b": "180",
+            "option_c": "140",
+            "option_d": "100",
+            "correct_option": ""
+        },
+        {
+            "question_number": 95,
+            "subject": "Mathematics",
+            "question_text": "The Saplings are planted at a distance of 4 m 50 cm in the road length of 9 km by Suresh. How many Saplings will be planted by him ?",
+            "option_a": "2000",
+            "option_b": "1500",
+            "option_c": "500",
+            "option_d": "1800",
+            "correct_option": ""
+        },
+        {
+            "question_number": 96,
+            "subject": "Mathematics",
+            "question_text": "Find the perimeter of the figure given below:",
+            "option_a": "19 cm",
+            "option_b": "29 cm",
+            "option_c": "30 cm",
+            "option_d": "40 cm",
+            "correct_option": ""
+        },
+        {
+            "question_number": 97,
+            "subject": "Mathematics",
+            "question_text": "Find the place value of product of the place values of 7 in 97034275.",
+            "option_a": "49",
+            "option_b": "70000000",
+            "option_c": "49000000",
+            "option_d": "490000000",
+            "correct_option": ""
+        },
+        {
+            "question_number": 98,
+            "subject": "Mathematics",
+            "question_text": "Find the area of shaded region.",
+            "option_a": "16 cm²",
+            "option_b": "12 cm²",
+            "option_c": "3 cm²",
+            "option_d": "8 cm²",
+            "correct_option": ""
+        },
+        {
+            "question_number": 99,
+            "subject": "Mathematics",
+            "question_text": "Which one of the following numbers is not a square number?",
+            "option_a": "361",
+            "option_b": "1731",
+            "option_c": "2025",
+            "option_d": "900",
+            "correct_option": ""
+        },
+        {
+            "question_number": 100,
+            "subject": "Mathematics",
+            "question_text": "If ∠AOB + ∠BOC = ∠AOC = 90° and ∠AOB = ∠BOC, then ∠AOB = ?",
+            "option_a": "30°",
+            "option_b": "45°",
+            "option_c": "60°",
+            "option_d": "90°",
+            "correct_option": ""
+        },
+        {
+            "question_number": 101,
+            "subject": "Mathematics",
+            "question_text": "PQ and RS are two equal chords of a circle with center O such that ∠POQ = 80° then ∠ROS = ?",
+            "option_a": "50°",
+            "option_b": "80°",
+            "option_c": "70°",
+            "option_d": "Not visible",
+            "correct_option": ""
+        },
+        {
+            "question_number": 102,
+            "subject": "Mathematics",
+            "question_text": "The general term of the number pattern is an = n²-1 / n+3. Find the sum of the first 4 terms. ஓர் எண் அமைப்பின் பொது உறுப்பு an = n²-1 / n+3 எனில் முதல் 4 உறுப்புகளின் கூடுதல் காண்க.",
+            "option_a": "A: 3 8/105",
+            "option_b": "B: 5 8/105",
+            "option_c": "C: 2 6/105",
+            "option_d": "D: 4 8/105",
+            "correct_option": ""
+        },
+        {
+            "question_number": 103,
+            "subject": "Mathematics",
+            "question_text": "In an Auditorium there are 40 seats in the front row and 50 rows were allotted. Each successive row contains two additional seats than its front row. How many seats are there in the hall? ஒரு கலையரங்கத்தின் முதல் வரிசையில் 40 இருக்கைகளும் மொத்தம் 50 வரிசைகளும் உள்ளன. அடுத்தடுத்த ஒவ்வொரு வரிசையிலும் அதற்கு முந்தைய வரிசையை விட இரண்டு இருக்கைகள் கூடுதலாக உள்ளன எனில் கலையரங்கத்தில் உள்ள மொத்த இருக்கைகளின் எண்ணிக்கை :",
+            "option_a": "A: 8125",
+            "option_b": "B: 8115",
+            "option_c": "C: 8235",
+            "option_d": "D: 8225",
+            "correct_option": ""
+        },
+        {
+            "question_number": 104,
+            "subject": "Mathematics",
+            "question_text": "Draw a pie diagram to represent the following data, which shows, the expenditure of paddy cultivation in 4 acres of land is Rs. 80,000 and total number of worker's expenditure is Rs. 50,000. Find in a pie diagram how much angle value is occupied for worker's expenditure. இதை ஒரு வட்ட விலக்க படத்தில் குறிப்பிடு. 4 ஏக்கர் நிலத்தில் நெல்லை பயிரிட ஆகும் மொத்த செலவு ரூ. 80,000. மேலும் மொத்த ஆள் கூலி செலவு ரூ. 50,000. எனில் வட்ட விலக்க படத்தில் மொத்த ஆள் கூலியால் அடைப்படும் கோண அளவு காண்க.",
+            "option_a": "A: 360°",
+            "option_b": "B: 45°",
+            "option_c": "C: 225°",
+            "option_d": "D: 245°",
+            "correct_option": ""
+        },
+        {
+            "question_number": 105,
+            "subject": "Statistics",
+            "question_text": "In the class-intervals, if the upper limit and the lower limit are included in that class interval. Then it is called _____. பிரிவு இடைவெளிகளில், மேல் எல்லையும், கீழ் எல்லையும் அந்த பிரிவு இடைவெளியில் உள்ளடங்கி இருந்தால் அது _____ எனப்படும்.",
+            "option_a": "A: Inclusive Series உள்ளடக்கியத் தொடர்",
+            "option_b": "B: Arithmetic Series கூட்டுத் தொடர்",
+            "option_c": "C: Geometric Series பெருக்குத் தொடர்",
+            "option_d": "D: Exclusive Series விலக்கியத் தொடர்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 107,
+            "subject": "Mathematics",
+            "question_text": "Ravi has a square plot of side 145 m and a rectangle plot of 35 m×25 m. He constructed a new house in 3/5 part area of the square plot and constructed a shed in 2/25 part area of the rectangular plot. What is the total constructed area? ரவி என்பவர் 145 மீ பக்கம் உடைய சதுர வடிவ நிலமும், 35 m x 25 m அளவு உடைய செவ்வக வடிவ நிலமும் பெற்றுள்ளார். அதில் சதுர வடிவ நிலத்தில் 5-ல் மூன்று பங்கு நிலத்தில் ஒரு வீடும், செவ்வக வடிவ நிலத்தின் 25 -ல் 2 பங்கு நிலத்தில் ஒரு கூடாரமும் அமைக்கிறார் எனில், ரவி கட்டிய மொத்த நிலத்தின் பரப்பு என்ன ?",
+            "option_a": "A: 4725 m²",
+            "option_b": "B: 4275 m²",
+            "option_c": "C: 4135 m²",
+            "option_d": "D: 4315 m²",
+            "correct_option": ""
+        },
+        {
+            "question_number": 107,
+            "subject": "Mathematics",
+            "question_text": "What is the angle when the clock shows the time 2.00 o' clock? கடிகாரம் 2.00 மணி காட்டும்போது, என்ன வகையான கோணம் காணப்படுகிறது?",
+            "option_a": "A: Acute angle குறுங்கோணம்",
+            "option_b": "B: Obtuse angle விரிகோணம்",
+            "option_c": "C: Zero angle பூச்சியக் கோணம்",
+            "option_d": "D: Right angle செங்கோணம்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 108,
+            "subject": "General Knowledge",
+            "question_text": "Use Caesar Cipher table set +5 the secret word for \"lti\" is _____. சீசர் மறைகுறியீடு +5 அட்டவணைத் தொகுப்பைப் பயன்படுத்தி \"lti\" -ல் மறைந்துள்ள ரகசிய வார்த்தை _____",
+            "option_a": "A: GOD",
+            "option_b": "B: DOG",
+            "option_c": "C: OGD",
+            "option_d": "D: DOO",
+            "correct_option": ""
+        },
+        {
+            "question_number": 109,
+            "subject": "Mathematics",
+            "question_text": "One pair of rats are doubled by the end of one month which are again doubled by the end of 2nd month. In this case how many rats are there by the end of one year? ஒரு சோடி எலிகள் முதல் மாத முடிவில் இரு மடங்காக அதிகரிக்கின்றன. அவைகள் 2-ஆம் மாத முடிவில் மீண்டும் இரு மடங்காக அதிகரிக்கின்றன. இந்நிலையில் முதல் ஆண்டு முடிவில் இருக்கும் மொத்த எலிகளின் எண்ணிக்கை :",
+            "option_a": "A: 1024",
+            "option_b": "B: 2048",
+            "option_c": "C: 4096",
+            "option_d": "D: 8192",
+            "correct_option": ""
+        },
+        {
+            "question_number": 110,
+            "subject": "Mathematics",
+            "question_text": "The Fractional form of 1.33 ... is _____. 1.33 ... -ன் தசம வடிவம் _____",
+            "option_a": "A: 1 1/3",
+            "option_b": "B: 1 2/3",
+            "option_c": "C: 13/10",
+            "option_d": "D: 133/100",
+            "correct_option": ""
+        },
+        {
+            "question_number": 111,
+            "subject": "Mathematics",
+            "question_text": "A Metallic sphere of diameter 42 cm is melted and recast into small spheres each of radius 3 cm. How many small spheres can be obtained? 42 செ.மீ விட்டமுள்ள ஓர் உலோகக் குண்டு, உருக்கப்பட்டு 3 செ.மீ ஆரமுள்ள சிறு உலோகக் குண்டுகளாக செய்யப்பட்டால் எத்தனை குண்டுகள் கிடைக்கும்?",
+            "option_a": "A: 216",
+            "option_b": "B: 512",
+            "option_c": "C: 343",
+            "option_d": "D: 729",
+            "correct_option": ""
+        },
+        {
+            "question_number": 112,
+            "subject": "Mathematics",
+            "question_text": "The decimal form of 11/35 is _____. 11/35 ன் தசம வடிவம் _____",
+            "option_a": "A: 0.3142857",
+            "option_b": "B: 0.3142857",
+            "option_c": "C: 0.3142857",
+            "option_d": "D: 0.3142857",
+            "correct_option": ""
+        },
+        {
+            "question_number": 113,
+            "subject": "Mathematics",
+            "question_text": "If the volume of a cube is 729 cu. cm and each side is x + 1 cm, then the value of x is : 729 க.செ.மீ கனஅளவுடைய ஒரு கன சதுரத்தின் பக்க அளவுகள் x+1 செ.மீ எனில் x ன் மதிப்பு யாது?",
+            "option_a": "A: 9 cm 9 செ.மீ",
+            "option_b": "B: 27 cm 27 செ.மீ",
+            "option_c": "C: 16 cm 16 செ.மீ",
+            "option_d": "D: 8 cm 8 செ.மீ",
+            "correct_option": ""
+        },
+        {
+            "question_number": 114,
+            "subject": "Mathematics",
+            "question_text": "Simplify: (21+12) (21³-12³) / (21²-12²). சுருக்குக : (21+12) (21³ - 12³) / (21²-12²)",
+            "option_a": "A: 2997",
+            "option_b": "B: 333",
+            "option_c": "C: -333",
+            "option_d": "D: -2997",
+            "correct_option": ""
+        },
+        {
+            "question_number": 115,
+            "subject": "Mathematics",
+            "question_text": "When proving that a quadrilateral is a trapezium, it is necessary to show : ஒரு நாற்கரமானது ஒரு சரிவகமாக அமையத் தேவையான நிபந்தனை :",
+            "option_a": "A: Two sides are parallel இரு பக்கங்கள் இணை",
+            "option_b": "B: Two parallel and two non-parallel sides இரு பக்கங்கள் இணை மற்றும் இரு பக்கங்கள் இணையற்றவை",
+            "option_c": "C: Opposite sides are parallel எதிரெதிர் பக்கங்கள் இணை",
+            "option_d": "D: All sides are of equal length அனைத்துப் பக்கங்களும் சமம்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 116,
+            "subject": "Mathematics",
+            "question_text": "One of the angles of a triangle is 75°, if the difference of the other two angles is 35°, then the two angles are : ஒரு முக்கோணத்தின் ஒரு கோணம் 75° மற்ற இரு கோணங்களின் வித்தியாசம் 35° எனில் அந்த கோணங்கள் :",
+            "option_a": "A: 60°, 25°",
+            "option_b": "B: 70°, 20°",
+            "option_c": "C: 70°, 35°",
+            "option_d": "D: 80°, 135°",
+            "correct_option": ""
+        },
+        {
+            "question_number": 117,
+            "subject": "Mathematics",
+            "question_text": "The ratio of a diagonal of a square to the side of a square is : ஒரு சதுரத்தின் மூலைவிட்டத்திற்கும் பக்கத்திற்கும் உள்ள விகிதம் :",
+            "option_a": "A: 1:2",
+            "option_b": "B: 1:√2",
+            "option_c": "C: √2:1",
+            "option_d": "D: 2:1",
+            "correct_option": ""
+        },
+        {
+            "question_number": 118,
+            "subject": "Mathematics",
+            "question_text": "The income of a person is increased by 10% and then decreased by 10%. Find the change in his income : ஒரு நபரின் வருமானம் 10% அதிகரிக்கப்பட்டு பிறகு 10% குறைக்கப்படுகிறது எனில், அவருடைய வருமானத்தில் ஏற்படும் மாற்றத்தைக் காண்க :",
+            "option_a": "A: 10%",
+            "option_b": "B: 1%",
+            "option_c": "C: 20%",
+            "option_d": "D: 2%",
+            "correct_option": ""
+        },
+        {
+            "question_number": 119,
+            "subject": "Mathematics",
+            "question_text": "A person sells an article for Rs. 5700 with a loss of 5%. If he wants to sell it with a gain of 5%, at what price has he to sell the article? ஒரு நபர் ஒரு பொருளை ரூ. 5700 க்கு விற்கும் போது 5% நட்டம் அடைகிறார். அவர் 5% இலாபம் பெற வேண்டுமெனில் அப்பொருளை எவ்வளவு விலைக்கு விற்பனை செய்ய வேண்டும்?",
+            "option_a": "A: Rs. 6000",
+            "option_b": "B: Rs. 6300",
+            "option_c": "C: Rs. 6400",
+            "option_d": "D: Rs. 6600",
+            "correct_option": ""
+        },
+        {
+            "question_number": 120,
+            "subject": "Mathematics",
+            "question_text": "The ratio of the volumes of two cones is 2: 3. Then the ratio of their radii if the height of second cone is double the height of first. இரு கூம்புகளுடைய கன அளவுகளின் விகிதம் 2:3 ஆகும். இரண்டாம் கூம்பின் உயரம் முதல் கூம்பின் உயரத்தைப் போல் இருமடங்கு எனில் அவற்றின் ஆரங்களின் விகிதம் :",
+            "option_a": "A: √2:3",
+            "option_b": "B: 2:√3",
+            "option_c": "C: √2:√3",
+            "option_d": "D: 2:3",
+            "correct_option": ""
+        },
+        {
+            "question_number": 121,
+            "subject": "General Knowledge",
+            "question_text": "The light house of Mediterranean sea is : மத்திய தரைக்கடலின் கலங்கரை விளக்கம் என அழைக்கப்படுவது :",
+            "option_a": "A: Stramboli ஸ்ட்ராம்போலி",
+            "option_b": "B: St. Helens செயிண்ட் ஹெலன்",
+            "option_c": "C: Mauna loa மவுனாலோ",
+            "option_d": "D: Mt. Popa மவுண்ட் போப்பா",
+            "correct_option": ""
+        },
+        {
+            "question_number": 122,
+            "subject": "General Knowledge",
+            "question_text": "'Project Tiger' was launched in _____. புலிகள் பாதுகாப்பு திட்டம் _____ல் தொடங்கப்பட்டது.",
+            "option_a": "A: April 1993 ஏப்ரல் 1993",
+            "option_b": "B: April 1973 ஏப்ரல் 1973",
+            "option_c": "C: April 1983",
+            "option_d": "",
+            "correct_option": ""
+        },
+        {
+            "question_number": 123,
+            "subject": "General Knowledge",
+            "question_text": "The new education policy was revised in ______. புதிய கல்வி கொள்கை திருத்தப்பட்ட ஆண்டு ______.",
+            "option_a": "1952 1952",
+            "option_b": "1962 1962",
+            "option_c": "1972 1972",
+            "option_d": "1992 1992",
+            "correct_option": ""
+        },
+        {
+            "question_number": 124,
+            "subject": "Physics",
+            "question_text": "A charge of 10 coulomb flows through a bulb in 5 second. What is the current through the bulb ? 10 கூலும் மின்னூட்டம் 5 வினாடி நேரம் ஒரு மின் விளக்கின் வழியாக பாய்கிறது எனில் அதன் வழியே செல்லும் மின்னோட்டத்தின் அளவு என்ன?",
+            "option_a": "0.2 A 0.2 A",
+            "option_b": "0.02 A 0.02 A",
+            "option_c": "0.002 A 0.002 A",
+            "option_d": "2.00 A 2.00 A",
+            "correct_option": ""
+        },
+        {
+            "question_number": 125,
+            "subject": "General Knowledge",
+            "question_text": "Which code gives the incorrect pairing of the following list ? கீழ்க்கண்டவற்றில் பொருந்தாதது எது?",
+            "option_a": "Red number plate - used in the vehicle for the president of India and Governor of states சிவப்பு வண்ணத்தகடு - குடியரசுத் தலைவர் மற்றும் மாநில ஆளுநர்களின் வாகனங்களில் பயன்படுத்தப்படும்",
+            "option_b": "Blue number plate - given to a vehicle that is used by foreign delegates / ambassadors நீல வண்ணத்தகடு - அயல்நாட்டு பிரதிநிதிகள்/தூதர்கள் பயன்படுத்தும் வாகனங்களுக்கு அளிக்கப்படும்",
+            "option_c": "White number plate - means that the car belongs to a common citizen வெள்ளை வண்ணத்தகடு - இது சாதாரண குடிமகனுக்கு சொந்தமான வாகனம் என்பதாகும்",
+            "option_d": "Yellow number plate - for common vehicle மஞ்சள் வண்ணத்தகடு - சாதாரண வாகனங்களுக்காக அளிக்கப்படும்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 126,
+            "subject": "Chemistry",
+            "question_text": "Relative molecular mass = ______. ஒப்பு மூலக்கூறு நிறை = ______.",
+            "option_a": "Vapour density / 2 ஆவி அடர்த்தி /2",
+            "option_b": "2/Vapour density 2 / ஆவி அடர்த்தி",
+            "option_c": "2 x Vapour density 2 x ஆவி அடர்த்தி",
+            "option_d": "Mass/ Atomic mass நிறை / அணு நிறை",
+            "correct_option": ""
+        },
+        {
+            "question_number": 127,
+            "subject": "Political Science",
+            "question_text": "Choose the correct answer from the statements given : (a) Tamil Nadu Legislative Assembly consists of 234 elected members from 189 General and 45 Reserved constituencies. (b) The first Legislative Assembly session was held on 3rd of March 1952. (c) Under Article 333 of the Constitution of India, the Governor nominates one member representing from Anglo-Indian community. (d) The fifteenth Tamil Nadu Legislative Assembly was constituted on the 7th May 2021. கொடுக்கப்பட்டுள்ள வாக்கியங்களிலிருந்து சரியான விடையை தேர்ந்தெடுக்கவும் : (a) தமிழ்நாடு மாநிலச் சட்டமன்றம் 234 உறுப்பினர்களைக் கொண்டது. இதில் 189 உறுப்பினர் பொது தொகுதி 45 உறுப்பினர் தனித்தொகுதி. (b) சட்டமன்றத்தின் முதல் கூட்டத் தொடர் 3.3.1952 அன்று துவங்கப்பட்டது. (c) அரசியலமைப்பு உறுப்பு 333 இன் கீழ் ஆங்கிலோ இந்தியர் பிரதிநிதி ஒருவர் ஆளுநரால் நியமிக்கப்படுகிறார். (d) 15 வது தமிழக சட்டமன்றம் 07.05.2021 அன்று அமைக்கப்பட்டது.",
+            "option_a": "(a) and (d) correct (a) மற்றும் (d) சரி",
+            "option_b": "(a) and (c) correct (a) மற்றும் (c) சரி",
+            "option_c": "(c) and (d) correct (c) மற்றும் (d) சரி",
+            "option_d": "(a) and (b) correct (a) மற்றும் (b) சரி",
+            "correct_option": ""
+        },
+        {
+            "question_number": 128,
+            "subject": "General Knowledge",
+            "question_text": "Which is the oldest corporation of Tamil Nadu ? தமிழ்நாட்டின் மிகப் பழமையான மாநகராட்சி எது?",
+            "option_a": "Chennai சென்னை",
+            "option_b": "Coimbatore கோயம்புத்தூர்",
+            "option_c": "Thiruchirapalli திருச்சிராப்பள்ளி",
+            "option_d": "Madurai மதுரை",
+            "correct_option": ""
+        },
+        {
+            "question_number": 129,
+            "subject": "Geography",
+            "question_text": "Which one is wrong? Name of the projects River (a) Bhakra-Nangal Project Sutlej (b) Nagarjuna Sagar Project Krishna (c) Indira Gandhi canal Project Narmada (d) Mettur Dam Project Cauveri தவறான இணையை கண்டுபிடிக்கவும் : பல்நோக்கு திட்டத்தின் பெயர் ஆறுகள் (a) பக்ராநங்கல் திட்டம் சட்லெஜ் (b) நாகார்ஜுன சாகர் திட்டம் கிருஷ்ணா (c) இந்திராகாந்தி கால்வாய் திட்டம் நர்மதை (d) மேட்டூர் அணை திட்டம் காவிரி",
+            "option_a": "(a) (a)",
+            "option_b": "(b) (b)",
+            "option_c": "(c) (c)",
+            "option_d": "(d) (d)",
+            "correct_option": ""
+        },
+        {
+            "question_number": 130,
+            "subject": "Environmental Science",
+            "question_text": "In which year the Ukraine was declared as a radiological and environmental biosphere reserve by the government ? எந்த ஆண்டில் உக்ரைன் நாடு \"கதிர் இயக்கவியல் சார் மற்றும் சுற்றுச்சூழல் உயிர்கோளப் பெட்டகம்\" என அந்நாட்டு அரசால் அறிவிக்கப்பட்டது?",
+            "option_a": "2018 2018",
+            "option_b": "2021 2021",
+            "option_c": "2015 2015",
+            "option_d": "2016 2016",
+            "correct_option": ""
+        },
+        {
+            "question_number": 131,
+            "subject": "Biology",
+            "question_text": "As chloroplast harvest light in plant ______ harvest light in Ant. (Vespa orientalis) குளோரோபிளாஸ்ட் தாவரங்களில் ஒளியை அறுவடை செய்வது போல, ______ எறும்பில் (வெஸ்பா ஓரியன்டாலிஸ்) ஒளியை அறுவடை செய்கிறது.",
+            "option_a": "Xantophyll சாந்தோஃபில்",
+            "option_b": "Xanthopterin சாந்தோப்டெரின்",
+            "option_c": "Carotenoid கரோட்டினாய்டு",
+            "option_d": "Erythroblast எரித்ரோபிளாஸ்ட்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 132,
+            "subject": "Botany",
+            "question_text": "Imagine you planted the stem cutting of a jasmine plant and you sprayed auxin in order to get roots but unfortunately the roots are not grown. Why? மல்லிகைச் செடியின் தண்டுப் பகுதியை பதியம் செய்வதாக நினைத்துக் கொள்ளுங்கள், மேலும் வேர்கள் வளர்வதற்காக ஆக்சினை தெளித்தீர்கள், ஆனால் வேர்கள் வளரவில்லை, காரணம் என்ன?",
+            "option_a": "Auxin does not promotes rooting. ஆக்சின் வேர்களின் வளர்ச்சியை ஊக்குவிப்பதில்லை",
+            "option_b": "High concentration of auxin is sprayed. ஆக்சின் அதிக செறிவில் தெளிக்கப்பட்டிருக்கிறது",
+            "option_c": "Low concentration of auxin is sprayed. குறைந்த செறிவுடைய ஆக்சின் தெளிக்கப்பட்டிருக்கிறது",
+            "option_d": "Auxin promotes shooting. ஆக்சின் முளைக்குருத்து வளர்வதை ஊக்குவிக்கிறது",
+            "correct_option": ""
+        },
+        {
+            "question_number": 133,
+            "subject": "Biology",
+            "question_text": "Circular, biconcave, disk like structure and no nucleus, those characters are found in which cells ? வட்டமான இருபுறமும் குழிந்த, தட்டையான மற்றும் உட்கரு அற்றவை போன்ற பண்புகளை கொண்ட செல்கள் எவை?",
+            "option_a": "WBC WBC",
+            "option_b": "Platelets பிளேட்லெட்ஸ்",
+            "option_c": "RBC RBC",
+            "option_d": "Monocytes ஒற்றை செல்கள்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 134,
+            "subject": "Botany",
+            "question_text": "Which is not an underground stem modification ? கொடுக்கப்பட்டுள்ளவற்றில் எது தண்டின் மாற்றுருக்கள் இல்லை?",
+            "option_a": "Tuber கிழங்கு",
+            "option_b": "Bulb குமிழம்",
+            "option_c": "Corm கந்தம்",
+            "option_d": "Spine முட்கள்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 135,
+            "subject": "Biology",
+            "question_text": "Select which belongs to cold - blooded animals : கொடுக்கப்பட்டவற்றில் எவை குளிர் இரத்த வகையில் அடங்கும்?",
+            "option_a": "Fish, Frog, Lizard, Man மீன், தவளை, பல்லி, மனிதன்",
+            "option_b": "Fish, Frog, Lizard, Cow மீன், தவளை, பல்லி, மாடு",
+            "option_c": "Fish, Frog, Lizard, Snake மீன், தவளை, பல்லி, பாம்பு",
+            "option_d": "Fish, Frog, Lizard, Crow மீன், தவளை, பல்லி, காகம்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 136,
+            "subject": "Environmental Science",
+            "question_text": "Find the effect of Global Warming from the following statements : (i) Loss of bio-diversity (ii) Irritating eyes and skin of human being (iii) Increase in frequency of floods (iv) Spreading of waterborne disease உலக வெப்பமயமாதலின் விளைவுகளை கொடுக்கப்பட்டுள்ள வாக்கியத்திலிருந்து கண்டறிக : (i) உயிரி பல்வகைத் தன்மை இழக்கிறது (ii) கண்களிலும் தோலிலும் எரிச்சலை உண்டாக்குகிறது (iii) அடிக்கடி வெள்ளம் உருவாதல் (iv) நீர் மற்றும் பூச்சிகளால் வரும் நோய்கள் பரவுகின்றன",
+            "option_a": "(i), (iii) and (iv) only (i), (iii) மற்றும் (iv) மட்டும்",
+            "option_b": "(i), (ii) and (iii) only (i), (ii) மற்றும் (iii) மட்டும்",
+            "option_c": "(i), (ii) and (iv) only (i), (ii) மற்றும் (iv) மட்டும்",
+            "option_d": "(ii), (iii) and (iv) only (ii), (iii) மற்றும் (iv) மட்டும்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 137,
+            "subject": "Biology",
+            "question_text": "Through which of these oxygen is transported to every cell of the body? உடலில் உள்ள ஒவ்வொரு செல்லுக்கும் ஆக்ஸிஜன் எதன் வாயிலாக கடத்தப்படுகிறது?",
+            "option_a": "Blood platelets இரத்த தட்டுகள்",
+            "option_b": "Red blood cells இரத்த சிவப்பணு",
+            "option_c": "White blood cells இரத்த வெள்ளையணுக்கள்",
+            "option_d": "Lymph நிணநீர்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 138,
+            "subject": "Biology",
+            "question_text": "The complex organ which acts as the controlling centre of our body : உடலின் மத்திய கட்டுப்பாட்டு மண்டலமாக திகழக்கூடிய மிக சிக்கலான உறுப்பு :",
+            "option_a": "Kidney சிறுநீரகங்கள்",
+            "option_b": "Heart இதயம்",
+            "option_c": "Brain மூளை",
+            "option_d": "Neck கழுத்து",
+            "correct_option": ""
+        },
+        {
+            "question_number": 139,
+            "subject": "Biology",
+            "question_text": "How many pairs of salivary glands are present in the mouth cavity? வாய்க் குழிக்குள் எத்தனை இணை உமிழ்நீர் சுரப்பிகள் உள்ளன ?",
+            "option_a": "Four pairs நான்கு இணை",
+            "option_b": "Three pairs மூன்று இணை",
+            "option_c": "Two pairs இரண்டு இணை",
+            "option_d": "Five pairs ஐந்து இணை",
+            "correct_option": ""
+        },
+        {
+            "question_number": 140,
+            "subject": "General Science",
+            "question_text": "One among the following is not the characteristic features of wool : கீழ் கொடுக்கப்பட்டவற்றுள் கம்பளியின் பண்பு அல்லாதது:",
+            "option_a": "Resistance to heat and water வெப்பம் மற்றும் தண்ணீருக்கு எதிர்ப்பு தன்மை கொண்டது.",
+            "option_b": "Absorbs moisture ஈரத்தை உறிஞ்சிக் கொள்ளும்",
+            "option_c": "Good insulator சிறந்த காப்பான்கள்",
+            "option_d": "Used in the manufacture of surgical threads அறுவை கிகிச்சையின்போது தையல் நூலாக பயன்படுகிறது.",
+            "correct_option": ""
+        },
+        {
+            "question_number": 141,
+            "subject": "Space Science",
+            "question_text": "______ was the first \"Man Landing Mission\" to the moon. ______ திட்டமானது முதன்முதலில் மனிதனை நிலவில் தரையிறங்கச் செய்த திட்டமாகும்.",
+            "option_a": "Apollo 7 அப்பொல்லோ 7",
+            "option_b": "Apollo 11 அப்பொல்லோ 11",
+            "option_c": "Apollo 8 அப்பொல்லோ 8",
+            "option_d": "Apollo 3 அப்பொல்லோ 3",
+            "correct_option": ""
+        },
+        {
+            "question_number": 142,
+            "subject": "Chemistry",
+            "question_text": "Find the methods for removing hardness of water : (i) Sedimentation (ii) Boiling (iii) Distillation (iv) Filtration (v) Adding washing soda நீரின் கடினத் தன்மையை நீக்குவதற்கு வழிமுறையை கண்டறிக : (i) வீழ்படிவாக்குதல் (ii) கொதிக்க வைத்தல் (iii) வாலை வடித்தல் (iv) வடிகட்டுதல் (v) சலவைச் சோடாவை சேர்த்தல்",
+            "option_a": "(i), (ii) and (iii) only (i), (ii) மற்றும் (iii) மட்டும்",
+            "option_b": "(ii), (iii) and (v) only (ii), (iii) மற்றும் (v) மட்டும்",
+            "option_c": "(i), (ii) and (iv) only (i), (ii) மற்றும் (iv) மட்டும்",
+            "option_d": "(i), (iii) and (iv) only (i), (iii) மற்றும் (iv) மட்டும்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 143,
+            "subject": "Physics",
+            "question_text": "The direction of air in a particular place can be determined using : ஓரிடத்தில் வீசும் காற்றின் திசையை கண்டறிய பயன்படும் கருவி :",
+            "option_a": "Barometer பாராமானி",
+            "option_b": "Hydrometer நீர்மானி",
+            "option_c": "Weather Cock காற்றுதிசைக்காட்டி",
+            "option_d": "Atomic Cock அணுதிசைக்காட்டி",
+            "correct_option": ""
+        },
+        {
+            "question_number": 144,
+            "subject": "Chemistry",
+            "question_text": "Among the following gases which one is acidic in nature : பின்வரும் வாயுக்களில் அமிலத்தன்மை கொண்டது எது?",
+            "option_a": "Nitrogen நைட்ரஜன்",
+            "option_b": "Oxygen ஆக்ஸிஜன்",
+            "option_c": "Carbon di-oxide கார்பன் டை ஆக்சைடு",
+            "option_d": "Ozone ஓசோன்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 145,
+            "subject": "Chemistry",
+            "question_text": "Match the following. பொருத்துக: (a) சலவைத்தூள் (i) DDT (b) உரங்கள் (ii) சோடியம் சல்பேட்டுகள் (c) பூச்சிக் கொல்லிகள் (iii) குரோமியம் (d) தோல் தொழிற்சாலைகள் (iv) நைட்ரேட்டுகள்",
+            "option_a": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv) (a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+            "option_b": "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i) (a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
+            "option_c": "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii) (a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
+            "option_d": "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv) (a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+            "correct_option": ""
+        },
+        {
+            "question_number": 146,
+            "subject": "Physics",
+            "question_text": "The energy required to raise the temperature of an iron ball 1 k is 250 Jk-1. Calculate the amount of energy required to raise its temperature by 20 k. ஒரு இரும்புப் பந்தின் வெப்பநிலையை 1 K உயர்த்துவதற்கு 250 Jk-l வெப்பம் தேவைப்படுகிறது. அதன் வெப்பநிலையை 20K உயர்த்துவதற்கு தேவையான வெப்ப ஆற்றலைக் கணக்கிடுக:",
+            "option_a": "5 kJ 5 கி.ஜுல்",
+            "option_b": "500 kJ 500 கி.ஜுல்",
+            "option_c": "5000 kJ 5000 .",
+            "option_d": "50 kJ 50 கி.ஜுல்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 147,
+            "subject": "Physics",
+            "question_text": "The amount of calories required to raise the temperature of water from 45°C to 53°C ? நீரின் வெப்பநிலையை 45°C-ல் இருந்து 53°C வெப்பநிலைக்கு உயர்த்த தேவையான கலோரியின் மதிப்பு யாது?",
+            "option_a": "37.674 J 37.674 J",
+            "option_b": "37.674 KJ 37.674 KJ",
+            "option_c": "33.488 J 33.488 J",
+            "option_d": "33.488 KJ 33.488 KJ",
+            "correct_option": ""
+        },
+        {
+            "question_number": 148,
+            "subject": "Physics",
+            "question_text": "In our daily life where could we feel Vander waals force? நம் தினசரி வாழ்வில் வாண்டவால்ஸ் விசையினை எவற்றில் உணர்கிறோம்?",
+            "option_a": "Pen பேனா",
+            "option_b": "Book புத்தகம்",
+            "option_c": "Pencil பென்சில்",
+            "option_d": "Diamond வைரம்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 149,
+            "subject": "Physics",
+            "question_text": "Vapourization process occurs only at : ஆவியாதல் நிகழ்வு நிகழ்வது :",
+            "option_a": "the bottom of the liquid திரவத்தின் அடிப்பகுதியில்",
+            "option_b": "the mid of the liquid திரவத்தின் நடுப்பகுதியில்",
+            "option_c": "the surface of the liquid திரவத்தின் புறப்பரப்பில்",
+            "option_d": "near the walls of the container கலனின் சுவருக்கு அருகில்",
+            "correct_option": ""
+        },
+        {
+            "question_number": 150,
+            "subject": "Physics",
+            "question_text": "If 0.004 A current flows through a circuit, then what is the current in micro ampere ? ஒரு சுற்றில் 0.004 A அளவு மின்னோட்டம் பாய்கிறது எனில் மைக்ரோ ஆம்பியரில் மின்னோட்டம் என்ன?",
+            "option_a": "0.004 μΑ 0.004 μΑ",
+            "option_b": "0.002 x 103 μΑ 0.002 x 103 μΑ",
+            "option_c": "0.004 x 103 μΑ 0.004 x 103 μΑ",
+            "option_d": "4.000 x 103 μΑ 4.000 x 103 μΑ",
+            "correct_option": ""
+        }
+    ]
 }
