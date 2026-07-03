@@ -78,12 +78,12 @@ def extract_from_multiple_pdfs(pdf_list):
 
 # List the 6 split files for the 15-10-22 afternoon session
 files_to_process = [
-    "split_1_15-10-22 fn.pdf",
-    "split_2_15-10-22 fn.pdf",
-    "split_3_15-10-22 fn.pdf",
-    "split_4_15-10-22 fn.pdf",
-    "split_5_15-10-22 fn.pdf",
-    "split_6_15-10-22 fn.pdf"
+    "split_1_17-10-22 FN.pdf",
+    "split_2_17-10-22 FN.pdf",
+    "split_3_17-10-22 FN.pdf",
+    "split_4_17-10-22 FN.pdf",
+    "split_5_17-10-22 FN.pdf",
+    "split_6_17-10-22 FN.pdf"
 ]
 
 extract_from_multiple_pdfs(files_to_process)
