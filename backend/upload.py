@@ -18,9 +18,9 @@ def upload_exam():
     # 2. Create the Question Bank folder in the database
     print("Creating Question Bank in database...")
     bank_response = supabase.table("question_banks").insert({
-        "exam_date": "2022-10-17", # You can change this per PDF
+        "exam_date": "2022-10-19", # You can change this per PDF
         "session": "FN",           # You can change this per PDF
-        "title": "TET 17-10-22 Forenoon Session"
+        "title": "TET 19-10-22 Forenoon Session"
     }).execute()
     
     # Get the unique ID of the bank we just created

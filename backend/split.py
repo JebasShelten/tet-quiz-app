@@ -20,4 +20,4 @@ def split_pdf(filename):
         print(f"Created {output_name} (Pages {start+1} to {end})")
 
 # Put your filename here
-split_pdf("17-10-22 FN.pdf")
+split_pdf("19-10-22 fn.pdf")
