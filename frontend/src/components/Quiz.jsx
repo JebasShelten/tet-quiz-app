@@ -12,10 +12,11 @@ export default function Quiz({ bankId, onBack }) {
   const [userAnswers, setUserAnswers] = useState({});
   const [shake, setShake] = useState(false);
 
-  // State for tracking if the quiz is over and what the score is
+  // State for tracking progress and the specific Database Row ID
   const [isFinished, setIsFinished] = useState(false);
   const [finalScore, setFinalScore] = useState(0);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [resultId, setResultId] = useState(null); // <-- NEW: Tracks the exact database row
 
   useEffect(() => {
     async function fetchData() {
@@ -40,9 +41,23 @@ export default function Quiz({ bankId, onBack }) {
           .maybeSingle();
         
         if (savedProgress) {
-          setUserAnswers(savedProgress.answers || {});
+          setResultId(savedProgress.id); // Save the row ID so we can update it later
           
-          // If they already finished it, skip the quiz and show results!
+          if (savedProgress.answers) {
+            setUserAnswers(savedProgress.answers);
+            
+            // NEW: Calculate the last answered question and jump to the next one!
+            const answeredKeys = Object.keys(savedProgress.answers).map(Number);
+            if (answeredKeys.length > 0) {
+              const lastAnswered = Math.max(...answeredKeys);
+              if (lastAnswered < qData.length - 1) {
+                setCurrentIndex(lastAnswered + 1); // Jump to next unanswered
+              } else {
+                setCurrentIndex(lastAnswered); // Or stay on the last one if at the end
+              }
+            }
+          }
+          
           if (savedProgress.status === 'completed') {
             setFinalScore(savedProgress.score);
             setIsFinished(true);
@@ -54,7 +69,7 @@ export default function Quiz({ bankId, onBack }) {
     fetchData();
   }, [bankId]);
 
-  // Auto-Save Function
+  // Bulletproof Auto-Save Function
   const handleOptionClick = async (letter) => {
     const currentQ = questions[currentIndex];
     const trueAnswer = currentQ?.final_key || currentQ?.correct_option;
@@ -73,17 +88,32 @@ export default function Quiz({ bankId, onBack }) {
       setTimeout(() => setShake(false), 500);
     }
 
-    // 2. Auto-save quietly in the background!
+    // 2. Auto-save using the exact Row ID
     const { data: { user } } = await supabase.auth.getUser();
     if (user) {
-      await supabase.from('quiz_results').upsert({ 
-        user_id: user.id, 
-        bank_id: bankId, 
-        answers: newAnswers,
-        status: 'in_progress',
-        score: 0,
-        total_questions: questions.length 
-      }, { onConflict: 'user_id, bank_id' });
+      if (resultId) {
+        // UPDATE
+        const { error } = await supabase.from('quiz_results').update({ 
+          answers: newAnswers,
+          status: 'in_progress'
+        }).eq('id', resultId);
+        
+        if (error) console.error("🚨 Failed to save progress:", error.message);
+        
+      } else {
+        // INSERT
+        const { data, error } = await supabase.from('quiz_results').insert([{ 
+          user_id: user.id, 
+          bank_id: bankId, 
+          answers: newAnswers,
+          status: 'in_progress',
+          score: 0,
+          total_questions: questions.length 
+        }]).select().single();
+        
+        if (error) console.error("🚨 Failed to create save file:", error.message);
+        if (data) setResultId(data.id);
+      }
     }
   };
 
@@ -102,22 +132,21 @@ export default function Quiz({ bankId, onBack }) {
     setFinalScore(calculatedScore);
 
     const { data: { user } } = await supabase.auth.getUser();
-    if (user) {
-      // Upsert the final score and lock it as 'completed'
-      await supabase.from('quiz_results').upsert({ 
-        user_id: user.id, 
-        bank_id: bankId, 
+    if (user && resultId) {
+      // UPDATE the final score and lock it as 'completed'
+      await supabase.from('quiz_results').update({ 
         answers: userAnswers,
         status: 'completed',
-        score: calculatedScore, 
-        total_questions: questions.length 
-      }, { onConflict: 'user_id, bank_id' });
+        score: calculatedScore 
+      }).eq('id', resultId);
     }
 
     confetti({ particleCount: 150, spread: 100, origin: { y: 0.5 } });
     setIsSubmitting(false);
     setIsFinished(true);
   };
+
+  // ... keep everything from `if (loading)` down to the bottom of the file EXACTLY the same! ...
 
   if (loading) {
     return (
