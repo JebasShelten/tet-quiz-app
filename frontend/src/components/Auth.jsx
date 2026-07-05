@@ -21,12 +21,23 @@ export default function Auth() {
 
     try {
       if (isLogin) {
+        // --- LOGIN LOGIC ---
+        const { error } = await supabase.auth.signInWithPassword({ email, password });
+        
+        if (error) {
+          // Check specifically for the unverified email error
+          if (error.message.includes('Email not confirmed')) {
+            throw new Error('Please verify your email address. Check your inbox for the confirmation link!');
+          }
+          throw new Error(error.message === 'Invalid login credentials' ? 'Incorrect email or password.' : error.message);
+        }
+      } else {
         // --- SIGNUP LOGIC ---
         // 1. Check if username is already taken
         const { data: existingUser } = await supabase.from('profiles').select('username').eq('username', username).single();
         if (existingUser) throw new Error('That username is already taken. Please choose another.');
 
-        // 2. Create Auth User AND send the custom metadata (Jerish's Trigger will catch this!)
+        // 2. Create Auth User and send custom data for the Database Trigger
         const { data: authData, error: authError } = await supabase.auth.signUp({ 
           email, 
           password,
@@ -41,13 +52,14 @@ export default function Auth() {
         
         if (authError) throw new Error(authError.message);
         
-        // 3. We no longer need the client-side profile insert! 
-        // We just need to tell the user to check their email.
+        // 3. Catch the silent failure if the email is already registered
         if (authData.user && authData.user.identities && authData.user.identities.length === 0) {
-            throw new Error('This email is already registered. Please log in.');
+            throw new Error('This email is already registered. Please switch to Sign In.');
         } else {
-            alert("Success! Please check your email to confirm your account before logging in.");
-            setIsLogin(true); // Flip them back to the login screen
+            alert("🎉 Success! Please check your email to confirm your account before logging in.");
+            setIsLogin(true);
+            setError(null); // Clear errors on success
+            setPassword(''); // Clear password for safety
         }
       }
     } catch (err) {
@@ -57,8 +69,14 @@ export default function Auth() {
     }
   };
 
+  // Safe toggle function to prevent accidental form submissions and clear memory
+  const toggleAuthMode = () => {
+    setIsLogin(!isLogin);
+    setError(null);
+  };
+
   return (
-    <div className="min-h-screen bg-[#F8F9FA] flex items-center justify-center p-4">
+    <div className="min-h-screen bg-[#F8F9FA] flex items-center justify-center p-4 font-sans">
       <div className="max-w-md w-full bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden">
         
         {/* Header Banner */}
@@ -103,7 +121,11 @@ export default function Auth() {
           <div className="mt-8 text-center">
             <p className="text-gray-500 text-sm">
               {isLogin ? "Don't have an account? " : "Already have an account? "}
-              <button onClick={() => { setIsLogin(!isLogin); setError(null); }} className="text-violet-600 font-bold hover:underline">
+              <button 
+                type="button" 
+                onClick={toggleAuthMode} 
+                className="text-violet-600 font-bold hover:underline"
+              >
                 {isLogin ? 'Sign up here' : 'Log in here'}
               </button>
             </p>
@@ -114,7 +136,6 @@ export default function Auth() {
   );
 }
 
-// Helper component for clean input fields
 function InputBox({ icon, type, placeholder, value, onChange, required, minLength }) {
   return (
     <div className="relative">
