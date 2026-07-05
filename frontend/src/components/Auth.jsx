@@ -21,25 +21,33 @@ export default function Auth() {
 
     try {
       if (isLogin) {
-        // --- LOGIN LOGIC ---
-        const { error } = await supabase.auth.signInWithPassword({ email, password });
-        if (error) throw new Error(error.message === 'Invalid login credentials' ? 'Incorrect email or password.' : error.message);
-      } else {
         // --- SIGNUP LOGIC ---
         // 1. Check if username is already taken
         const { data: existingUser } = await supabase.from('profiles').select('username').eq('username', username).single();
         if (existingUser) throw new Error('That username is already taken. Please choose another.');
 
-        // 2. Create the Auth User
-        const { data: authData, error: authError } = await supabase.auth.signUp({ email, password });
+        // 2. Create Auth User AND send the custom metadata (Jerish's Trigger will catch this!)
+        const { data: authData, error: authError } = await supabase.auth.signUp({ 
+          email, 
+          password,
+          options: {
+            data: {
+              username: username,
+              full_name: fullName,
+              phone: phone
+            }
+          }
+        });
+        
         if (authError) throw new Error(authError.message);
-
-        // 3. Create their custom Profile
-        if (authData.user) {
-          const { error: profileError } = await supabase.from('profiles').insert([
-            { id: authData.user.id, email, username, full_name: fullName, phone }
-          ]);
-          if (profileError) throw new Error('Account created, but failed to save profile details.');
+        
+        // 3. We no longer need the client-side profile insert! 
+        // We just need to tell the user to check their email.
+        if (authData.user && authData.user.identities && authData.user.identities.length === 0) {
+            throw new Error('This email is already registered. Please log in.');
+        } else {
+            alert("Success! Please check your email to confirm your account before logging in.");
+            setIsLogin(true); // Flip them back to the login screen
         }
       }
     } catch (err) {
