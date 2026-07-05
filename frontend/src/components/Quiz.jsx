@@ -1,18 +1,21 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../supabaseClient';
 import Layout from './Layout';
-import { Clock, ArrowLeft, ArrowRight, Bookmark } from 'lucide-react';
-import confetti from 'canvas-confetti'; // Import our new animation!
+import { Clock, ArrowLeft, ArrowRight, Bookmark, CheckCircle, Trophy, RefreshCw } from 'lucide-react';
+import confetti from 'canvas-confetti'; 
 
 export default function Quiz({ bankId, onBack }) {
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   
-  // Track which option the user clicked for each question index
   const [userAnswers, setUserAnswers] = useState({});
-  // Track animation state for wrong answers
   const [shake, setShake] = useState(false);
+
+  // NEW: State for tracking if the quiz is over and what the score is
+  const [isFinished, setIsFinished] = useState(false);
+  const [finalScore, setFinalScore] = useState(0);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
     async function fetchQuestions() {
@@ -28,6 +31,41 @@ export default function Quiz({ bankId, onBack }) {
     fetchQuestions();
   }, [bankId]);
 
+  // NEW: The Submission Function
+  const handleSubmitQuiz = async () => {
+    setIsSubmitting(true);
+    
+    // 1. Calculate the final score
+    let calculatedScore = 0;
+    questions.forEach((q, index) => {
+      const trueAnswer = q.final_key || q.correct_option;
+      if (userAnswers[index] === trueAnswer) {
+        calculatedScore += 1;
+      }
+    });
+
+    setFinalScore(calculatedScore);
+
+    // 2. Save it to Supabase
+    const { data: { user } } = await supabase.auth.getUser();
+    
+    if (user) {
+      await supabase.from('quiz_results').insert([
+        { 
+          user_id: user.id, 
+          bank_id: bankId, 
+          score: calculatedScore, 
+          total_questions: questions.length 
+        }
+      ]);
+    }
+
+    // 3. Show celebration and results screen
+    confetti({ particleCount: 150, spread: 100, origin: { y: 0.5 } });
+    setIsSubmitting(false);
+    setIsFinished(true);
+  };
+
   if (loading) {
     return (
       <Layout>
@@ -38,28 +76,64 @@ export default function Quiz({ bankId, onBack }) {
     );
   }
 
+  // ==========================================
+  // NEW: The Results Screen UI
+  // ==========================================
+  if (isFinished) {
+    const percentage = Math.round((finalScore / questions.length) * 100);
+    return (
+      <Layout>
+        <div className="max-w-3xl mx-auto mt-10">
+          <div className="bg-white rounded-3xl p-10 border border-gray-100 shadow-xl text-center flex flex-col items-center">
+            
+            <div className="w-24 h-24 bg-violet-100 rounded-full flex items-center justify-center mb-6 shadow-inner">
+              <Trophy size={48} className="text-violet-600" />
+            </div>
+            
+            <h2 className="text-4xl font-bold text-gray-900 mb-2">Quiz Completed!</h2>
+            <p className="text-gray-500 font-medium mb-10">Great job putting in the work. Here are your results.</p>
+
+            <div className="flex gap-8 mb-12 w-full justify-center">
+              <div className="bg-gray-50 p-6 rounded-2xl w-40 border border-gray-100 shadow-sm">
+                <span className="text-sm text-gray-500 font-bold block mb-1">Score</span>
+                <span className="text-3xl font-bold text-violet-600">{finalScore} / {questions.length}</span>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-2xl w-40 border border-gray-100 shadow-sm">
+                <span className="text-sm text-gray-500 font-bold block mb-1">Accuracy</span>
+                <span className="text-3xl font-bold text-emerald-500">{percentage}%</span>
+              </div>
+            </div>
+
+            <div className="flex gap-4">
+              <button 
+                onClick={onBack}
+                className="px-8 py-4 bg-gray-100 text-gray-700 font-bold rounded-xl hover:bg-gray-200 transition"
+              >
+                Back to Dashboard
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </Layout>
+    );
+  }
+
+  // ==========================================
+  // EXISTING QUIZ UI (With Submit Button Added)
+  // ==========================================
   const currentQ = questions[currentIndex];
-  // Prioritize the 'final_key' if Jerish updated it, otherwise use 'correct_option'
   const trueAnswer = currentQ?.final_key || currentQ?.correct_option;
   const answeredOption = userAnswers[currentIndex];
   const hasAnswered = !!answeredOption;
 
   const handleOptionClick = (letter) => {
-    if (hasAnswered) return; // Prevent changing answer once clicked
-
-    // Save answer
+    if (hasAnswered) return; 
     setUserAnswers(prev => ({ ...prev, [currentIndex]: letter }));
 
     if (letter === trueAnswer) {
-      // 🎉 Celebration for correct!
-      confetti({
-        particleCount: 100,
-        spread: 70,
-        origin: { y: 0.6 },
-        colors: ['#8b5cf6', '#10b981', '#3b82f6']
-      });
+      confetti({ particleCount: 50, spread: 60, origin: { y: 0.7 }, colors: ['#8b5cf6', '#10b981'] });
     } else {
-      // ❌ Shake animation for wrong!
       setShake(true);
       setTimeout(() => setShake(false), 500);
     }
@@ -101,27 +175,22 @@ export default function Quiz({ bankId, onBack }) {
                 {currentQ.question_text}
               </h2>
 
-              {/* Dynamic Options Grid */}
               <div className="flex flex-col gap-3">
                 {['A', 'B', 'C', 'D'].map((letter) => {
                   const optionText = currentQ[`option_${letter.toLowerCase()}`];
                   if (!optionText || optionText === 'EMPTY') return null;
                   
-                  // Grading Logic
                   let btnClass = "border-gray-100 bg-white text-gray-700 hover:border-violet-300 hover:bg-violet-50 cursor-pointer";
                   let iconClass = "bg-gray-100 text-gray-600";
 
                   if (hasAnswered) {
                     if (letter === trueAnswer) {
-                      // The correct answer always highlights green
                       btnClass = "border-emerald-500 bg-emerald-50 text-emerald-900 shadow-md scale-[1.02] transition-transform";
                       iconClass = "bg-emerald-500 text-white";
                     } else if (letter === answeredOption && letter !== trueAnswer) {
-                      // The user's wrong answer highlights red
                       btnClass = "border-red-500 bg-red-50 text-red-900";
                       iconClass = "bg-red-500 text-white";
                     } else {
-                      // Other answers fade out
                       btnClass = "border-gray-100 bg-white text-gray-400 opacity-50 cursor-not-allowed";
                     }
                   }
@@ -150,13 +219,24 @@ export default function Quiz({ bankId, onBack }) {
               >
                 Previous
               </button>
-              <button 
-                onClick={() => setCurrentIndex(prev => Math.min(questions.length - 1, prev + 1))}
-                disabled={currentIndex === questions.length - 1}
-                className="px-6 py-3 bg-violet-600 text-white rounded-xl font-bold hover:bg-violet-700 transition shadow-md shadow-violet-200 flex items-center gap-2 transform active:scale-95"
-              >
-                Next <ArrowRight size={20} />
-              </button>
+              
+              {/* NEW: Dynamic Button (Next vs Submit) */}
+              {currentIndex === questions.length - 1 ? (
+                <button 
+                  onClick={handleSubmitQuiz}
+                  disabled={isSubmitting}
+                  className="px-8 py-3 bg-emerald-500 text-white rounded-xl font-bold hover:bg-emerald-600 transition shadow-md shadow-emerald-200 flex items-center gap-2 transform active:scale-95"
+                >
+                  {isSubmitting ? 'Saving...' : 'Submit Quiz'} <CheckCircle size={20} />
+                </button>
+              ) : (
+                <button 
+                  onClick={() => setCurrentIndex(prev => Math.min(questions.length - 1, prev + 1))}
+                  className="px-6 py-3 bg-violet-600 text-white rounded-xl font-bold hover:bg-violet-700 transition shadow-md shadow-violet-200 flex items-center gap-2 transform active:scale-95"
+                >
+                  Next <ArrowRight size={20} />
+                </button>
+              )}
             </div>
           </div>
         </div>
@@ -166,10 +246,8 @@ export default function Quiz({ bankId, onBack }) {
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm flex flex-col h-[600px]">
             <h3 className="font-bold text-gray-900 mb-4">Question Navigator</h3>
             
-            {/* Scrollable Container for all 150 questions */}
             <div className="grid grid-cols-5 gap-2 overflow-y-auto pr-2 custom-scrollbar flex-1 pb-4">
               {questions.map((q, i) => {
-                // Determine color of circle in navigator
                 const isAnswered = !!userAnswers[i];
                 const isCorrect = userAnswers[i] === (q.final_key || q.correct_option);
                 
