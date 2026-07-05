@@ -56,7 +56,6 @@ export default function Dashboard({ onSelectBank }) {
 // ... Keep the rest of your UI the same, BUT change the Start Quiz button! ...
 
   return (
-    <Layout>
       <div className="max-w-7xl mx-auto flex flex-col gap-8 pb-10">
         
         {/* TOP SECTION: Banner & Stats */}
@@ -164,7 +163,6 @@ export default function Dashboard({ onSelectBank }) {
         </div>
 
       </div>
-    </Layout>
   );
 }
 

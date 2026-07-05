@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Home, BookOpen, Bookmark, TrendingUp, History, Settings, Sun, ChevronDown, Menu, X } from 'lucide-react';
 
-export default function Layout({ children }) {
+export default function Layout({ children, currentView, onNavigate }) {
   // State to control if the sidebar is open or closed
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
@@ -25,13 +25,14 @@ export default function Layout({ children }) {
             </div>
           </div>
 
+          {/* Navigation Links - Now fully functional! */}
           <nav className="px-4 space-y-2 mt-4">
-            <NavItem icon={<Home size={20} />} label="Home" active isOpen={isSidebarOpen} />
-            <NavItem icon={<BookOpen size={20} />} label="My Quizzes" isOpen={isSidebarOpen} />
-            <NavItem icon={<Bookmark size={20} />} label="Bookmarks" isOpen={isSidebarOpen} />
-            <NavItem icon={<TrendingUp size={20} />} label="Performance" isOpen={isSidebarOpen} />
-            <NavItem icon={<History size={20} />} label="History" isOpen={isSidebarOpen} />
-            <NavItem icon={<Settings size={20} />} label="Settings" isOpen={isSidebarOpen} />
+            <NavItem icon={<Home size={20} />} label="Home" active={currentView === 'home' || currentView === 'quiz'} isOpen={isSidebarOpen} onClick={() => onNavigate('home')} />
+            <NavItem icon={<BookOpen size={20} />} label="My Quizzes" active={currentView === 'quizzes'} isOpen={isSidebarOpen} onClick={() => onNavigate('quizzes')} />
+            <NavItem icon={<Bookmark size={20} />} label="Bookmarks" active={currentView === 'bookmarks'} isOpen={isSidebarOpen} onClick={() => onNavigate('bookmarks')} />
+            <NavItem icon={<TrendingUp size={20} />} label="Performance" active={currentView === 'performance'} isOpen={isSidebarOpen} onClick={() => onNavigate('performance')} />
+            <NavItem icon={<History size={20} />} label="History" active={currentView === 'history'} isOpen={isSidebarOpen} onClick={() => onNavigate('history')} />
+            <NavItem icon={<Settings size={20} />} label="Settings" active={currentView === 'settings'} isOpen={isSidebarOpen} onClick={() => onNavigate('settings')} />
           </nav>
         </div>
 
@@ -81,15 +82,18 @@ export default function Layout({ children }) {
   );
 }
 
-function NavItem({ icon, label, active, isOpen }) {
+// Changed from <a> to <button> and added cursor-pointer
+function NavItem({ icon, label, active, isOpen, onClick }) {
   return (
-    <a href="#" className={`flex items-center gap-3 px-3 py-3 rounded-xl transition-all duration-200 font-medium group
+    <button 
+      onClick={onClick}
+      className={`w-full flex items-center gap-3 px-3 py-3 rounded-xl transition-all duration-200 font-medium group cursor-pointer
       ${active ? 'bg-violet-600 text-white shadow-md shadow-violet-200' : 'text-gray-500 hover:bg-violet-50 hover:text-violet-700'}
     `}>
       <div className="min-w-[20px]">{icon}</div>
-      <span className={`transition-all duration-300 whitespace-nowrap ${isOpen ? 'opacity-100 w-auto' : 'opacity-0 w-0 overflow-hidden'}`}>
+      <span className={`transition-all duration-300 whitespace-nowrap text-left ${isOpen ? 'opacity-100 w-auto' : 'opacity-0 w-0 overflow-hidden'}`}>
         {label}
       </span>
-    </a>
+    </button>
   );
 }

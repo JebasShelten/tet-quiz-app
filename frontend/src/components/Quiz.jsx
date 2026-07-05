@@ -146,15 +146,36 @@ export default function Quiz({ bankId, onBack }) {
     setIsFinished(true);
   };
 
+  // NEW: Retry Button Logic
+  const handleRetry = async () => {
+    setIsSubmitting(true);
+    
+    // 1. Reset Frontend
+    setUserAnswers({});
+    setCurrentIndex(0);
+    setFinalScore(0);
+    
+    // 2. Reset Database back to 0
+    const { data: { user } } = await supabase.auth.getUser();
+    if (user && resultId) {
+      await supabase.from('quiz_results').update({ 
+        answers: {},
+        status: 'in_progress',
+        score: 0 
+      }).eq('id', resultId);
+    }
+    
+    setIsFinished(false);
+    setIsSubmitting(false);
+  };
+
   // ... keep everything from `if (loading)` down to the bottom of the file EXACTLY the same! ...
 
   if (loading) {
     return (
-      <Layout>
         <div className="flex justify-center items-center h-full">
           <div className="animate-spin rounded-full h-12 w-12 border-4 border-violet-500 border-t-transparent"></div>
         </div>
-      </Layout>
     );
   }
 
@@ -162,7 +183,6 @@ export default function Quiz({ bankId, onBack }) {
   if (isFinished) {
     const percentage = Math.round((finalScore / questions.length) * 100);
     return (
-      <Layout>
         <div className="max-w-3xl mx-auto mt-10">
           <div className="bg-white rounded-3xl p-10 border border-gray-100 shadow-xl text-center flex flex-col items-center">
             
@@ -187,14 +207,20 @@ export default function Quiz({ bankId, onBack }) {
             <div className="flex gap-4">
               <button 
                 onClick={onBack}
-                className="px-8 py-4 bg-gray-100 text-gray-700 font-bold rounded-xl hover:bg-gray-200 transition"
+                className="px-8 py-4 bg-gray-100 text-gray-700 font-bold rounded-xl hover:bg-gray-200 transition cursor-pointer"
               >
                 Back to Dashboard
+              </button>
+              <button 
+                onClick={handleRetry}
+                disabled={isSubmitting}
+                className="px-8 py-4 bg-violet-600 text-white font-bold rounded-xl hover:bg-violet-700 transition shadow-md cursor-pointer flex items-center gap-2"
+              >
+                {isSubmitting ? 'Resetting...' : 'Retry Quiz'}
               </button>
             </div>
           </div>
         </div>
-      </Layout>
     );
   }
 
@@ -205,7 +231,6 @@ export default function Quiz({ bankId, onBack }) {
   const hasAnswered = !!answeredOption;
 
   return (
-    <Layout>
       <div className="max-w-7xl mx-auto flex flex-col xl:flex-row gap-6 pb-10">
         
         {/* LEFT COLUMN: Question Area */}
@@ -338,6 +363,5 @@ export default function Quiz({ bankId, onBack }) {
         </div>
 
       </div>
-    </Layout>
   );
 }
