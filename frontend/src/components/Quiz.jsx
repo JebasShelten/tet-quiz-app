@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../supabaseClient';
 import Layout from './Layout';
-import { Clock, ArrowLeft, ArrowRight, Bookmark, CheckCircle, Trophy, RefreshCw } from 'lucide-react';
+import { Clock, ArrowLeft, ArrowRight, Bookmark, CheckCircle, Trophy } from 'lucide-react';
 import confetti from 'canvas-confetti'; 
 
 export default function Quiz({ bankId, onBack }) {
@@ -12,7 +12,7 @@ export default function Quiz({ bankId, onBack }) {
   const [userAnswers, setUserAnswers] = useState({});
   const [shake, setShake] = useState(false);
 
-  // NEW: State for tracking if the quiz is over and what the score is
+  // State for tracking if the quiz is over and what the score is
   const [isFinished, setIsFinished] = useState(false);
   const [finalScore, setFinalScore] = useState(0);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -22,12 +22,22 @@ export default function Quiz({ bankId, onBack }) {
       const { data: { user } } = await supabase.auth.getUser();
 
       // 1. Fetch the Questions
-      const { data: qData } = await supabase.from('questions').select('*').eq('question_bank_id', bankId).order('question_number', { ascending: true });
+      const { data: qData } = await supabase
+        .from('questions')
+        .select('*')
+        .eq('question_bank_id', bankId)
+        .order('question_number', { ascending: true });
+
       if (qData) setQuestions(qData);
 
       // 2. Load any saved progress!
       if (user) {
-        const { data: savedProgress } = await supabase.from('quiz_results').select('*').eq('bank_id', bankId).eq('user_id', user.id).maybeSingle();
+        const { data: savedProgress } = await supabase
+          .from('quiz_results')
+          .select('*')
+          .eq('bank_id', bankId)
+          .eq('user_id', user.id)
+          .maybeSingle();
         
         if (savedProgress) {
           setUserAnswers(savedProgress.answers || {});
@@ -44,8 +54,41 @@ export default function Quiz({ bankId, onBack }) {
     fetchData();
   }, [bankId]);
 
-  // NEW: The Submission Function
-const handleSubmitQuiz = async () => {
+  // Auto-Save Function
+  const handleOptionClick = async (letter) => {
+    const currentQ = questions[currentIndex];
+    const trueAnswer = currentQ?.final_key || currentQ?.correct_option;
+    const hasAnswered = !!userAnswers[currentIndex];
+
+    if (hasAnswered) return; 
+    
+    // 1. Update the UI instantly
+    const newAnswers = { ...userAnswers, [currentIndex]: letter };
+    setUserAnswers(newAnswers);
+
+    if (letter === trueAnswer) {
+      confetti({ particleCount: 50, spread: 60, origin: { y: 0.7 }, colors: ['#8b5cf6', '#10b981'] });
+    } else {
+      setShake(true);
+      setTimeout(() => setShake(false), 500);
+    }
+
+    // 2. Auto-save quietly in the background!
+    const { data: { user } } = await supabase.auth.getUser();
+    if (user) {
+      await supabase.from('quiz_results').upsert({ 
+        user_id: user.id, 
+        bank_id: bankId, 
+        answers: newAnswers,
+        status: 'in_progress',
+        score: 0,
+        total_questions: questions.length 
+      }, { onConflict: 'user_id, bank_id' });
+    }
+  };
+
+  // Final Submission Function
+  const handleSubmitQuiz = async () => {
     setIsSubmitting(true);
     
     let calculatedScore = 0;
@@ -76,28 +119,6 @@ const handleSubmitQuiz = async () => {
     setIsFinished(true);
   };
 
-    setFinalScore(calculatedScore);
-
-    // 2. Save it to Supabase
-    const { data: { user } } = await supabase.auth.getUser();
-    
-    if (user) {
-      await supabase.from('quiz_results').insert([
-        { 
-          user_id: user.id, 
-          bank_id: bankId, 
-          score: calculatedScore, 
-          total_questions: questions.length 
-        }
-      ]);
-    }
-
-    // 3. Show celebration and results screen
-    confetti({ particleCount: 150, spread: 100, origin: { y: 0.5 } });
-    setIsSubmitting(false);
-    setIsFinished(true);
-  };
-
   if (loading) {
     return (
       <Layout>
@@ -108,9 +129,7 @@ const handleSubmitQuiz = async () => {
     );
   }
 
-  // ==========================================
-  // NEW: The Results Screen UI
-  // ==========================================
+  // The Results Screen UI
   if (isFinished) {
     const percentage = Math.round((finalScore / questions.length) * 100);
     return (
@@ -144,49 +163,17 @@ const handleSubmitQuiz = async () => {
                 Back to Dashboard
               </button>
             </div>
-
           </div>
         </div>
       </Layout>
     );
   }
 
-  // ==========================================
-  // EXISTING QUIZ UI (With Submit Button Added)
-  // ==========================================
+  // Existing Quiz UI
   const currentQ = questions[currentIndex];
   const trueAnswer = currentQ?.final_key || currentQ?.correct_option;
   const answeredOption = userAnswers[currentIndex];
   const hasAnswered = !!answeredOption;
-
-// NEW: Auto-Save Function
-  const handleOptionClick = async (letter) => {
-    if (hasAnswered) return; 
-    
-    // 1. Update the UI instantly
-    const newAnswers = { ...userAnswers, [currentIndex]: letter };
-    setUserAnswers(newAnswers);
-
-    if (letter === trueAnswer) {
-      confetti({ particleCount: 50, spread: 60, origin: { y: 0.7 }, colors: ['#8b5cf6', '#10b981'] });
-    } else {
-      setShake(true);
-      setTimeout(() => setShake(false), 500);
-    }
-
-    // 2. Auto-save quietly in the background!
-    const { data: { user } } = await supabase.auth.getUser();
-    if (user) {
-      await supabase.from('quiz_results').upsert({ 
-        user_id: user.id, 
-        bank_id: bankId, 
-        answers: newAnswers,
-        status: 'in_progress',
-        score: 0,
-        total_questions: questions.length 
-      }, { onConflict: 'user_id, bank_id' }); // Jerish's rule makes this work!
-    }
-  };
 
   return (
     <Layout>
@@ -269,7 +256,6 @@ const handleSubmitQuiz = async () => {
                 Previous
               </button>
               
-              {/* NEW: Dynamic Button (Next vs Submit) */}
               {currentIndex === questions.length - 1 ? (
                 <button 
                   onClick={handleSubmitQuiz}
