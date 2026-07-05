@@ -1,19 +1,8 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../supabaseClient';
 import Layout from './Layout';
-import { 
-  ClipboardList, 
-  Database, 
-  CheckCircle, 
-  Trophy, 
-  ChevronDown, 
-  Bookmark, 
-  Calendar, 
-  ArrowRight,
-  Lightbulb
-} from 'lucide-react';
+import { ClipboardList, Database, CheckCircle, Trophy, ChevronDown, Bookmark, Calendar, ArrowRight, Lightbulb } from 'lucide-react';
 
-// These exact colors match the alternating theme in your screenshot
 const cardThemes = [
   { main: 'bg-violet-600', light: 'bg-violet-50', text: 'text-violet-600' },
   { main: 'bg-blue-500', light: 'bg-blue-50', text: 'text-blue-500' },
@@ -25,18 +14,46 @@ const cardThemes = [
 export default function Dashboard({ onSelectBank }) {
   const [banks, setBanks] = useState([]);
   const [loading, setLoading] = useState(true);
+  
+  // NEW: State for user progress
+  const [stats, setStats] = useState({ completed: 0, bestScore: '--' });
+  const [userProgress, setUserProgress] = useState({}); // Stores status for each bank
 
   useEffect(() => {
-    async function fetchBanks() {
-      // Fetching all 12 question banks from Jerish's Supabase upload
-      const { data, error } = await supabase.from('question_banks').select('*').order('exam_date', { ascending: true });
-      if (data) {
-        setBanks(data);
+    async function fetchData() {
+      const { data: { user } } = await supabase.auth.getUser();
+      
+      // 1. Fetch all question banks
+      const { data: banksData } = await supabase.from('question_banks').select('*').order('exam_date', { ascending: true });
+      if (banksData) setBanks(banksData);
+
+      // 2. Fetch user's specific progress
+      if (user) {
+        const { data: progressData } = await supabase.from('quiz_results').select('*').eq('user_id', user.id);
+        
+        if (progressData) {
+          let completedCount = 0;
+          let highestScore = 0;
+          const progressMap = {};
+
+          progressData.forEach(attempt => {
+            progressMap[attempt.bank_id] = attempt.status;
+            if (attempt.status === 'completed') {
+              completedCount++;
+              if (attempt.score > highestScore) highestScore = attempt.score;
+            }
+          });
+
+          setStats({ completed: completedCount, bestScore: completedCount > 0 ? highestScore : '--' });
+          setUserProgress(progressMap);
+        }
       }
       setLoading(false);
     }
-    fetchBanks();
+    fetchData();
   }, []);
+
+// ... Keep the rest of your UI the same, BUT change the Start Quiz button! ...
 
   return (
     <Layout>
@@ -112,12 +129,18 @@ export default function Dashboard({ onSelectBank }) {
                     </span>
                   </div>
 
-                  {/* Card Button */}
+                  {/* Card Button - Dynamic based on Database Status */}
                   <button 
                     onClick={() => onSelectBank(bank.id)}
-                    className={`w-full ${theme.main} text-white font-semibold py-3 rounded-xl flex items-center justify-center gap-2 opacity-90 hover:opacity-100 transition shadow-md`}
+                    className={`w-full font-semibold py-3 rounded-xl flex items-center justify-center gap-2 opacity-90 hover:opacity-100 transition shadow-md
+                      ${userProgress[bank.id] === 'completed' ? 'bg-emerald-500 text-white' : 
+                        userProgress[bank.id] === 'in_progress' ? 'bg-orange-500 text-white' : 
+                        `${theme.main} text-white`}
+                    `}
                   >
-                    Start Quiz <ArrowRight size={18} />
+                    {userProgress[bank.id] === 'completed' ? 'View Results' : 
+                     userProgress[bank.id] === 'in_progress' ? 'Resume Quiz' : 'Start Quiz'} 
+                    <ArrowRight size={18} />
                   </button>
                 </div>
               );

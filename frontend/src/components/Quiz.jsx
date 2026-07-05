@@ -18,24 +18,36 @@ export default function Quiz({ bankId, onBack }) {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
-    async function fetchQuestions() {
-      const { data } = await supabase
-        .from('questions')
-        .select('*')
-        .eq('question_bank_id', bankId)
-        .order('question_number', { ascending: true });
+    async function fetchData() {
+      const { data: { user } } = await supabase.auth.getUser();
 
-      if (data) setQuestions(data);
+      // 1. Fetch the Questions
+      const { data: qData } = await supabase.from('questions').select('*').eq('question_bank_id', bankId).order('question_number', { ascending: true });
+      if (qData) setQuestions(qData);
+
+      // 2. Load any saved progress!
+      if (user) {
+        const { data: savedProgress } = await supabase.from('quiz_results').select('*').eq('bank_id', bankId).eq('user_id', user.id).maybeSingle();
+        
+        if (savedProgress) {
+          setUserAnswers(savedProgress.answers || {});
+          
+          // If they already finished it, skip the quiz and show results!
+          if (savedProgress.status === 'completed') {
+            setFinalScore(savedProgress.score);
+            setIsFinished(true);
+          }
+        }
+      }
       setLoading(false);
     }
-    fetchQuestions();
+    fetchData();
   }, [bankId]);
 
   // NEW: The Submission Function
-  const handleSubmitQuiz = async () => {
+const handleSubmitQuiz = async () => {
     setIsSubmitting(true);
     
-    // 1. Calculate the final score
     let calculatedScore = 0;
     questions.forEach((q, index) => {
       const trueAnswer = q.final_key || q.correct_option;
@@ -43,6 +55,26 @@ export default function Quiz({ bankId, onBack }) {
         calculatedScore += 1;
       }
     });
+
+    setFinalScore(calculatedScore);
+
+    const { data: { user } } = await supabase.auth.getUser();
+    if (user) {
+      // Upsert the final score and lock it as 'completed'
+      await supabase.from('quiz_results').upsert({ 
+        user_id: user.id, 
+        bank_id: bankId, 
+        answers: userAnswers,
+        status: 'completed',
+        score: calculatedScore, 
+        total_questions: questions.length 
+      }, { onConflict: 'user_id, bank_id' });
+    }
+
+    confetti({ particleCount: 150, spread: 100, origin: { y: 0.5 } });
+    setIsSubmitting(false);
+    setIsFinished(true);
+  };
 
     setFinalScore(calculatedScore);
 
@@ -127,15 +159,32 @@ export default function Quiz({ bankId, onBack }) {
   const answeredOption = userAnswers[currentIndex];
   const hasAnswered = !!answeredOption;
 
-  const handleOptionClick = (letter) => {
+// NEW: Auto-Save Function
+  const handleOptionClick = async (letter) => {
     if (hasAnswered) return; 
-    setUserAnswers(prev => ({ ...prev, [currentIndex]: letter }));
+    
+    // 1. Update the UI instantly
+    const newAnswers = { ...userAnswers, [currentIndex]: letter };
+    setUserAnswers(newAnswers);
 
     if (letter === trueAnswer) {
       confetti({ particleCount: 50, spread: 60, origin: { y: 0.7 }, colors: ['#8b5cf6', '#10b981'] });
     } else {
       setShake(true);
       setTimeout(() => setShake(false), 500);
+    }
+
+    // 2. Auto-save quietly in the background!
+    const { data: { user } } = await supabase.auth.getUser();
+    if (user) {
+      await supabase.from('quiz_results').upsert({ 
+        user_id: user.id, 
+        bank_id: bankId, 
+        answers: newAnswers,
+        status: 'in_progress',
+        score: 0,
+        total_questions: questions.length 
+      }, { onConflict: 'user_id, bank_id' }); // Jerish's rule makes this work!
     }
   };
 
